@@ -3,8 +3,8 @@
 ## 机器学习 (Machine learning)
 
 #### 线性模型 (Linear models)
-- ##### 线性回归 (Linear regression) ([code](codes/Linear_models/linear_regression.py)) ([notebook-in-colab)](notebooks(colab)/Linear_models/linear_regression.ipynb))
-- ##### 逻辑回归 (Logistic regression)
+- ##### 线性回归 (Linear regression) ([code](codes/Linear_models/linear_regression.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/linear_regression.ipynb))
+- ##### 逻辑回归 (Logistic regression) ([code](codes/Linear_models/logistic_regression.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/logistic_regression.ipynb))
 
 #### 几种经典模型 (Classic models)
 - ##### 主成分分析 (Principal Component Analysis, PCA)
