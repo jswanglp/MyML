@@ -1,5 +1,5 @@
-#coding:utf-8
-# 线性回归
+# 该程序实现了一个简单的线性回归
+# coding:utf-8
 import numpy as np
 import tensorflow as tf
 import matplotlib.pyplot as plt
