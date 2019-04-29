@@ -22,7 +22,7 @@
     + ##### 卷积神经网络 (Convolutional Neural Network, CNN)
 - ##### 非监督学习模型 (Unsupervised learning model)
     + ##### 自编码器 (Autoencoder, AE)
-    + ##### 变分自编码器 (Variational autoencoder, VAE)
+    + ##### 变分自编码器 (Variational autoencoder, VAE) ([code](codes/Neural_network_models/Unsupervised_learning_model/VAE.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_model/VAE.ipynb))
     + ##### 生成对抗网络 (Generative Adversarial Networks, GAN)
     + ##### 深度卷积生成对抗网络 (Deep Convolutional Generative Adversarial Networks, DCGAN)
 
