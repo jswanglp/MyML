@@ -8,7 +8,7 @@
 
 #### 几种经典模型 (Classic models)
 - ##### 主成分分析 (Principal Component Analysis, PCA)
-- ##### 支持向量机模型 (Support Vector Machines, SVM)
+- ##### 支持向量机模型 (Support Vector Machines, SVM) ([code](codes/Classic_models/linear_SVM.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/linear_SVM.ipynb))
 - ##### 朴素贝叶斯分类器 (Naive Bayes classifier)
 - ##### 隐马尔科夫模型 (Hidden Markov Model, HMM)
 - ##### 聚类 (Clustering)
