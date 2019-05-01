@@ -8,7 +8,9 @@
 
 #### 几种经典模型 (Classic models)
 - ##### 主成分分析 (Principal Component Analysis, PCA)
-- ##### 支持向量机模型 (Support Vector Machines, SVM) ([code](codes/Classic_models/linear_SVM.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/linear_SVM.ipynb))
+- ##### 支持向量机模型 (Support Vector Machines, SVM)
+    + ##### NN 降维 (Dimensionality reduction with NN) ([code](codes/Classic_models/linear_SVM.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/linear_SVM.ipynb))
+    + ##### CNN 降维 (Dimensionality reduction with CNN) ([code](codes/Classic_models/linear_SVM(CNN).py)) ([notebook-in-colab](notebooks(colab)/Classic_models/linear_SVM(CNN).ipynb))
 - ##### 朴素贝叶斯分类器 (Naive Bayes classifier)
 - ##### 隐马尔科夫模型 (Hidden Markov Model, HMM)
 - ##### 聚类 (Clustering)
