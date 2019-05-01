@@ -3,7 +3,9 @@
 ## 机器学习 (Machine learning)
 
 #### 线性模型 (Linear models)
-- ##### 线性回归 (Linear regression) ([code](codes/Linear_models/linear_regression.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/linear_regression.ipynb))
+- ##### 线性回归 (Linear regression)
+    + ##### 梯度下降 (Gradient descent) ([code](codes/Linear_models/linear_regression.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/linear_regression.ipynb))
+    + ##### 岭回归 (Ridge regression)
 - ##### 逻辑回归 (Logistic regression) ([code](codes/Linear_models/logistic_regression.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/logistic_regression.ipynb))
 
 #### 几种经典模型 (Classic models)
@@ -28,7 +30,7 @@
     + ##### 生成对抗网络 (Generative Adversarial Networks, GAN)
     + ##### 深度卷积生成对抗网络 (Deep Convolutional Generative Adversarial Networks, DCGAN)
 
-#### 其它
+#### 其它 (Others)
 - ##### tensorboard 的使用 (Tensorboard tutorials)
 - ##### tensorflow_datasets 的使用 (Tensorflow_datasets tutorials)
 
