@@ -1,4 +1,5 @@
 # MyML
+> 温故而知新，可以为师矣<a href='#fn1' name='fn1b'><sup>[1]</sup></a>。
 
 ## 机器学习 (Machine learning)
 
@@ -10,6 +11,7 @@
 
 #### 几种经典模型 (Classic models)
 - ##### 主成分分析 (Principal Component Analysis, PCA) ([code](codes/Classic_models/PCA.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/PCA.ipynb))
+- ##### 决策树 (Decision tree)
 - ##### 支持向量机模型 (Support Vector Machines, SVM)
     + ##### NN 降维 (Dimensionality reduction with NN) ([code](codes/Classic_models/linear_SVM.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/linear_SVM.ipynb))
     + ##### CNN 降维 (Dimensionality reduction with CNN) ([code](codes/Classic_models/linear_SVM(CNN).py)) ([notebook-in-colab](notebooks(colab)/Classic_models/linear_SVM(CNN).ipynb))
@@ -34,3 +36,9 @@
 - ##### tensorboard 的使用 (Tensorboard tutorials)
 - ##### tensorflow_datasets 的使用 (Tensorflow_datasets tutorials)
 
+-----
+**脚注 (Footnote)**
+
+<a name='fn1'>[1]</a>： [论语·第二章·为政篇 -- 孔丘](http://www.guoxue.com/book/lunyu/0002.htm)
+
+<a href='#fn1b'><small>↑Back to Content↑</small></a>
