@@ -1,5 +1,6 @@
 # MyML
 > 温故而知新，可以为师矣<a href='#fn1' name='fn1b'><sup>[1]</sup></a>。
+- [русско-английский](README_RU.md)
 
 ## 机器学习 (Machine learning)
 
@@ -23,11 +24,11 @@
     + ##### AdaBoost 算法 (Adaptive Boosting, AdaBoost)
 
 #### 神经网络模型 (Neural network models)
-- ##### 监督学习模型 (Supervised learning model)
+- ##### 监督学习模型 (Supervised learning models)
     + ##### 多层感知机 (Multilayer Perceptron, MLP)
     + ##### 卷积神经网络 (Convolutional Neural Network, CNN)
     + ##### 卷积神经网络的优化 (Optimization of CNN)
-- ##### 非监督学习模型 (Unsupervised learning model)
+- ##### 非监督学习模型 (Unsupervised learning models)
     + ##### 自编码器 (Autoencoder, AE) ([code](codes/Neural_network_models/Unsupervised_learning_model/VAE.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_model/VAE.ipynb))
     + ##### 变分自编码器 (Variational autoencoder, VAE) ([code](codes/Neural_network_models/Unsupervised_learning_model/VAE.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_model/VAE.ipynb))
     + ##### 生成对抗网络 (Generative Adversarial Networks, GAN)
