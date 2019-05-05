@@ -25,12 +25,12 @@
 
 #### 神经网络模型 (Neural network models)
 - ##### 监督学习模型 (Supervised learning models)
-    + ##### 多层感知机 (Multilayer Perceptron, MLP)
+    + ##### 多层感知机 (Multilayer Perceptron, MLP) ([code](codes/Neural_network_models/Supervised_learning_models/MLP.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/MLP.ipynb))
     + ##### 卷积神经网络 (Convolutional Neural Network, CNN)
     + ##### 卷积神经网络的优化 (Optimization of CNN)
 - ##### 非监督学习模型 (Unsupervised learning models)
-    + ##### 自编码器 (Autoencoder, AE) ([code](codes/Neural_network_models/Unsupervised_learning_model/VAE.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_model/VAE.ipynb))
-    + ##### 变分自编码器 (Variational autoencoder, VAE) ([code](codes/Neural_network_models/Unsupervised_learning_model/VAE.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_model/VAE.ipynb))
+    + ##### 自编码器 (Autoencoder, AE) ([code](codes/Neural_network_models/Unsupervised_learning_models/AE.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/AE.ipynb))
+    + ##### 变分自编码器 (Variational autoencoder, VAE) ([code](codes/Neural_network_models/Unsupervised_learning_models/VAE.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/VAE.ipynb))
     + ##### 生成对抗网络 (Generative Adversarial Networks, GAN)
     + ##### 深度卷积生成对抗网络 (Deep Convolutional Generative Adversarial Networks, DCGAN)
 

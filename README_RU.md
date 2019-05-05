@@ -25,12 +25,12 @@
 
 #### Модели нейронных сетей (Neural network models)
 - ##### Модели обучения с учителем (Supervised learning models)
-    + ##### Многослойный персептрон (Multilayer Perceptron, MLP)
+    + ##### Многослойный персептрон (Multilayer Perceptron, MLP) ([code](codes/Neural_network_models/Supervised_learning_models/MLP.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/MLP.ipynb))
     + ##### Сверточные нейронные сети (Convolutional Neural Network, CNN)
     + ##### Оптимизация СНС (Optimization of CNN)
 - ##### Модели обучения без учителя (Unsupervised learning models)
-    + ##### Автокодировщик (Autoencoder, AE) ([code](codes/Neural_network_models/Unsupervised_learning_model/VAE.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_model/VAE.ipynb))
-    + ##### Вариационный автокодировщик (Variational autoencoder, VAE) ([code](codes/Neural_network_models/Unsupervised_learning_model/VAE.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_model/VAE.ipynb))
+    + ##### Автокодировщик (Autoencoder, AE) ([code](codes/Neural_network_models/Unsupervised_learning_models/AE.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/AE.ipynb))
+    + ##### Вариационный автокодировщик (Variational autoencoder, VAE) ([code](codes/Neural_network_models/Unsupervised_learning_models/VAE.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/VAE.ipynb))
     + ##### Генеративно-состязательные сети (Generative Adversarial Networks, GAN)
     + ##### Глубокие сверточные генеративно-состязательные сети (Deep Convolutional Generative Adversarial Networks, DCGAN)
 
