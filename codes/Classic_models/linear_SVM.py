@@ -56,6 +56,7 @@ if __name__ == '__main__':
     data['train_label'] = mnist.train.labels[index_list_train]
     data['test_image'] = mnist.test.images[index_list_test]
     data['test_label'] = np.array(mnist.test.labels[index_list_test], dtype=np.float32)
+    # data['test_label'] = mnist.test.labels[index_list_test].astype('float32')
 
     data['train_image_label'] = np.c_[data['train_image'], data['train_label']]
     num_samples, num_features = data['train_image'].shape
