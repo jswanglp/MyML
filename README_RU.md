@@ -19,6 +19,7 @@
 - ##### Наивный байесовский классификатор (Naive Bayes classifier)
 - ##### Скрытая марковская модель (Hidden Markov Model, HMM)
 - ##### Кластеризация (Clustering)
+    + ##### Метод k-средних (k-means clustering, k-means) ([code](codes/Classic_models/kmeans.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/kmeans.ipynb))
 - ##### Ансамблевое обучение (Ensemble learning)
     + ##### Случайный лес (Random Forest, RF)
     + ##### Алгоритм AdaBoost (Adaptive Boosting, AdaBoost)
