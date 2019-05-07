@@ -18,6 +18,7 @@
     + ##### CNN 降维 (Dimensionality reduction with CNN) ([code](codes/Classic_models/linear_SVM(CNN).py)) ([notebook-in-colab](notebooks(colab)/Classic_models/linear_SVM(CNN).ipynb))
 - ##### 朴素贝叶斯分类器 (Naive Bayes classifier)
 - ##### 隐马尔科夫模型 (Hidden Markov Model, HMM)
+- ##### 混合高斯模型 (Gaussian mixture model, GMM)
 - ##### 聚类 (Clustering)
     + ##### k-means 聚类 (k-means clustering, k-means) ([code](codes/Classic_models/kmeans.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/kmeans.ipynb))
 - ##### 集成学习 (Ensemble learning)

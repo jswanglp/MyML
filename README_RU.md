@@ -18,6 +18,7 @@
     + ##### Снижение с помощью СНС (Dimensionality reduction with CNN) ([code](codes/Classic_models/linear_SVM(CNN).py)) ([notebook-in-colab](notebooks(colab)/Classic_models/linear_SVM(CNN).ipynb))
 - ##### Наивный байесовский классификатор (Naive Bayes classifier)
 - ##### Скрытая марковская модель (Hidden Markov Model, HMM)
+- ##### Модель гауссовых смесей (Gaussian mixture model, GMM)
 - ##### Кластеризация (Clustering)
     + ##### Метод k-средних (k-means clustering, k-means) ([code](codes/Classic_models/kmeans.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/kmeans.ipynb))
 - ##### Ансамблевое обучение (Ensemble learning)
