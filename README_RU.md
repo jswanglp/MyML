@@ -16,7 +16,7 @@
 - ##### Метод опорных векторов (Support Vector Machines, SVM)
     + ##### Снижение с помощью ИНС (Dimensionality reduction with NN) ([code](codes/Classic_models/linear_SVM.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/linear_SVM.ipynb))
     + ##### Снижение с помощью СНС (Dimensionality reduction with CNN) ([code](codes/Classic_models/linear_SVM(CNN).py)) ([notebook-in-colab](notebooks(colab)/Classic_models/linear_SVM(CNN).ipynb))
-- ##### Наивный байесовский классификатор (Naive Bayes classifier)
+- ##### Наивный байесовский классификатор (Naive Bayes classifier) ([code](codes/Classic_models/NB.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/NB.ipynb))
 - ##### Скрытая марковская модель (Hidden Markov Model, HMM)
 - ##### Модель гауссовых смесей (Gaussian mixture model, GMM)
 - ##### Кластеризация (Clustering)
