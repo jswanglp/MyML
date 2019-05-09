@@ -12,6 +12,7 @@
 
 #### Классические модели (Classic models)
 - ##### Метод главных компонент (Principal Component Analysis, PCA) ([code](codes/Classic_models/PCA.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/PCA.ipynb))
+- ##### Метод k-ближайших соседей (k-nearest neighbors algorithm, k-NN)
 - ##### Дерево принятия решений (Decision tree) ([code](codes/Classic_models/Decision_tree.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/Decision_tree.ipynb))
 - ##### Метод опорных векторов (Support Vector Machines, SVM)
     + ##### Снижение с помощью ИНС (Dimensionality reduction with NN) ([code](codes/Classic_models/linear_SVM.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/linear_SVM.ipynb))
