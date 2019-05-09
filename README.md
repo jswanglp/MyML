@@ -29,7 +29,7 @@
 - ##### 监督学习模型 (Supervised learning models)
     + ##### 多层感知机 (Multilayer Perceptron, MLP) ([code](codes/Neural_network_models/Supervised_learning_models/MLP.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/MLP.ipynb))
     + ##### 卷积神经网络 (Convolutional Neural Network, CNN) ([code-keras](codes/Neural_network_models/Supervised_learning_models/CNN_keras.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/CNN_keras.ipynb))
-    + ##### 卷积神经网络 (Convolutional Neural Network, CNN)
+    + ##### 卷积神经网络 (Convolutional Neural Network, CNN) ([code-tf](codes/Neural_network_models/Supervised_learning_models/CNN_tf.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/CNN_tf.ipynb))
     + ##### 卷积神经网络的优化 (Optimization of CNN)
 - ##### 非监督学习模型 (Unsupervised learning models)
     + ##### 自编码器 (Autoencoder, AE) ([code](codes/Neural_network_models/Unsupervised_learning_models/AE.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/AE.ipynb))

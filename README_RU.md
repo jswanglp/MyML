@@ -29,7 +29,7 @@
 - ##### Модели обучения с учителем (Supervised learning models)
     + ##### Многослойный персептрон (Multilayer Perceptron, MLP) ([code](codes/Neural_network_models/Supervised_learning_models/MLP.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/MLP.ipynb))
     + ##### Сверточные нейронные сети (Convolutional Neural Network, CNN) ([code-keras](codes/Neural_network_models/Supervised_learning_models/CNN_keras.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/CNN_keras.ipynb))
-    + ##### Сверточные нейронные сети (Convolutional Neural Network, CNN)
+    + ##### Сверточные нейронные сети (Convolutional Neural Network, CNN) ([code-tf](codes/Neural_network_models/Supervised_learning_models/CNN_tf.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/CNN_tf.ipynb))
     + ##### Оптимизация СНС (Optimization of CNN)
 - ##### Модели обучения без учителя (Unsupervised learning models)
     + ##### Автокодировщик (Autoencoder, AE) ([code](codes/Neural_network_models/Unsupervised_learning_models/AE.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/AE.ipynb))
