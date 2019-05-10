@@ -35,7 +35,7 @@
 - ##### Модели обучения без учителя (Unsupervised learning models)
     + ##### Автокодировщик (Autoencoder, AE) ([code](codes/Neural_network_models/Unsupervised_learning_models/AE.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/AE.ipynb))
     + ##### Вариационный автокодировщик (Variational autoencoder, VAE) ([code](codes/Neural_network_models/Unsupervised_learning_models/VAE.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/VAE.ipynb))
-    + ##### Генеративно-состязательные сети (Generative Adversarial Networks, GAN)
+    + ##### Генеративно-состязательные сети (Generative Adversarial Networks, GAN) ([code](codes/Neural_network_models/Unsupervised_learning_models/GAN.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/GAN.ipynb))
     + ##### Глубокие сверточные генеративно-состязательные сети (Deep Convolutional Generative Adversarial Networks, DCGAN)
 
 #### Другие (Others)
