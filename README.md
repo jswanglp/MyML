@@ -12,7 +12,7 @@
 
 #### 几种经典模型 (Classic models)
 - ##### 主成分分析 (Principal Component Analysis, PCA) ([code](codes/Classic_models/PCA.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/PCA.ipynb))
-- ##### K-近邻算法 (k-nearest neighbors algorithm, k-NN)
+- ##### K-近邻算法 (k-nearest neighbors algorithm, k-NN) ([code](codes/Classic_models/KNN_main.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/KNN.ipynb))
 - ##### 决策树 (Decision tree) ([code](codes/Classic_models/Decision_tree.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/Decision_tree.ipynb))
 - ##### 支持向量机模型 (Support Vector Machines, SVM)
     + ##### NN 降维 (Dimensionality reduction with NN) ([code](codes/Classic_models/linear_SVM.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/linear_SVM.ipynb))
