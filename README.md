@@ -19,7 +19,7 @@
     + ##### CNN 降维 (Dimensionality reduction with CNN) ([code](codes/Classic_models/linear_SVM(CNN).py)) ([notebook-in-colab](notebooks(colab)/Classic_models/linear_SVM(CNN).ipynb))
 - ##### 朴素贝叶斯分类器 (Naive Bayes classifier) ([code](codes/Classic_models/NB.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/NB.ipynb))
 - ##### 隐马尔科夫模型 (Hidden Markov Model, HMM)
-- ##### 最大期望算法 (Expectation Maximization algorithm, EM)
+- ##### 最大期望算法 (Expectation Maximization algorithm, EM) ([code](codes/Classic_models/EM.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/EM.ipynb))
 - ##### 混合高斯模型 (Gaussian mixture model, GMM)
 - ##### 聚类 (Clustering)
     + ##### k-means 聚类 (k-means clustering, k-means) ([code](codes/Classic_models/kmeans.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/kmeans.ipynb))
