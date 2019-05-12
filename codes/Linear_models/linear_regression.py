@@ -53,8 +53,8 @@ name = ['Loss', 'Gradients']
 color = ['r', 'b']
 data = [Loss, Gradients]
 for na, ax, co, d in zip(name, AX, color, data):
-  ax.plot(np.linspace(0, FLAGS.num_epochs, FLAGS.num_epochs), d, co, label=na)
-  ax.set_title(na)
-  ax.legend()
+    ax.plot(np.linspace(0, FLAGS.num_epochs, FLAGS.num_epochs), d, co, label=na)
+    ax.set_title(na)
+    ax.legend()
 
 plt.show()
