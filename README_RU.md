@@ -11,7 +11,7 @@
 - ##### Логистическая регрессия (Logistic regression) ([code](codes/Linear_models/logistic_regression_RU.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/logistic_regression_RU.ipynb))
 
 #### Классические модели (Classic models)
-- ##### Метод главных компонент (Principal Component Analysis, PCA) ([code](codes/Classic_models/PCA.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/PCA.ipynb))
+- ##### Метод главных компонент (Principal Component Analysis, PCA) ([code](codes/Classic_models/PCA_RU.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/PCA_RU.ipynb))
 - ##### Метод k-ближайших соседей (k-nearest neighbors algorithm, k-NN) ([code](codes/Classic_models/KNN_main.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/KNN.ipynb))
 - ##### Дерево принятия решений (Decision tree) ([code](codes/Classic_models/Decision_tree.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/Decision_tree.ipynb))
 - ##### Метод опорных векторов (Support Vector Machines, SVM)
