@@ -25,7 +25,7 @@
     + ##### Метод k-средних (k-means clustering, k-means) ([code](codes/Classic_models/kmeans.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/kmeans.ipynb))
 - ##### Ансамблевое обучение (Ensemble learning)
     + ##### Случайный лес (Random Forest, RF)
-    + ##### Алгоритм AdaBoost (Adaptive Boosting, AdaBoost)
+    + ##### Алгоритм AdaBoost (Adaptive Boosting, AdaBoost) ([code](codes/Classic_models/Adaboost_main.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/Adaboost.ipynb))
 
 #### Модели нейронных сетей (Neural network models)
 - ##### Модели обучения с учителем (Supervised learning models)
