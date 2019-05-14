@@ -1,4 +1,5 @@
-#@title tensorboard_tutorials(cifar-10) { display-mode: "both" }
+# 该程序为 tensorboard 的一个 tutorials
+# 版本为 tensorboard 1.12
 # conding: utf-8
 import tensorflow as tf
 import tensorflow_datasets as tfds

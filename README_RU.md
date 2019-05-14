@@ -42,7 +42,7 @@
     + ##### Глубокие сверточные генеративно-состязательные сети (Deep Convolutional Generative Adversarial Networks, DCGAN)
 
 #### Другие (Others)
-- ##### Пособия tensorboard (Tensorboard tutorials)
+- ##### Пособия tensorboard (Tensorboard tutorials) ([code](codes/Others/tensorboard_tutorials.py)) ([notebook-in-colab](notebooks(colab)/Others/tensorboard_tutorials.ipynb))
 - ##### Пособия tensorflow_datasets (Tensorflow_datasets tutorials)
 
 -----

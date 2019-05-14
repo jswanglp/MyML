@@ -42,7 +42,7 @@
     + ##### 深度卷积生成对抗网络 (Deep Convolutional Generative Adversarial Networks, DCGAN)
 
 #### 其它 (Others)
-- ##### tensorboard 的使用 (Tensorboard tutorials)
+- ##### tensorboard 的使用 (Tensorboard tutorials) ([code](codes/Others/tensorboard_tutorials.py)) ([notebook-in-colab](notebooks(colab)/Others/tensorboard_tutorials.ipynb))
 - ##### tensorflow_datasets 的使用 (Tensorflow_datasets tutorials)
 
 -----
