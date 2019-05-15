@@ -24,7 +24,7 @@
 - ##### 聚类 (Clustering)
     + ##### k-means 聚类 (k-means clustering, k-means) ([code](codes/Classic_models/kmeans.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/kmeans.ipynb))
 - ##### 集成学习 (Ensemble learning)
-    + ##### 随机森林 (Random Forest, RF)
+    + ##### 随机森林 (Random Forest, RF) ([code](codes/Classic_models/RF.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/RF.ipynb))
     + ##### AdaBoost 算法 (Adaptive Boosting, AdaBoost) ([code](codes/Classic_models/Adaboost_main.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/Adaboost.ipynb))
 
 #### 神经网络模型 (Neural network models)
@@ -42,8 +42,8 @@
     + ##### 深度卷积生成对抗网络 (Deep Convolutional Generative Adversarial Networks, DCGAN)
 
 #### 其它 (Others)
-- ##### tensorboard 的使用 (Tensorboard tutorials) ([code](codes/Others/tensorboard_tutorials.py)) ([notebook-in-colab](notebooks(colab)/Others/tensorboard_tutorials.ipynb))
-- ##### tensorflow_datasets 的使用 (Tensorflow_datasets tutorials)
+- ##### Tensorboard 的使用 (Tensorboard tutorials) ([code](codes/Others/tensorboard_tutorials.py)) ([notebook-in-colab](notebooks(colab)/Others/tensorboard_tutorials.ipynb))
+- ##### TensorFlow Dataset 类的使用 (TensorFlow Dataset class tutorials)
 
 -----
 **脚注 (Footnote)**

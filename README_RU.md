@@ -24,7 +24,7 @@
 - ##### Кластеризация (Clustering)
     + ##### Метод k-средних (k-means clustering, k-means) ([code](codes/Classic_models/kmeans.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/kmeans.ipynb))
 - ##### Ансамблевое обучение (Ensemble learning)
-    + ##### Случайный лес (Random Forest, RF)
+    + ##### Случайный лес (Random Forest, RF) ([code](codes/Classic_models/RF.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/RF.ipynb))
     + ##### Алгоритм AdaBoost (Adaptive Boosting, AdaBoost) ([code](codes/Classic_models/Adaboost_main.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/Adaboost.ipynb))
 
 #### Модели нейронных сетей (Neural network models)
@@ -43,7 +43,7 @@
 
 #### Другие (Others)
 - ##### Пособия tensorboard (Tensorboard tutorials) ([code](codes/Others/tensorboard_tutorials.py)) ([notebook-in-colab](notebooks(colab)/Others/tensorboard_tutorials.ipynb))
-- ##### Пособия tensorflow_datasets (Tensorflow_datasets tutorials)
+- ##### Пособия TensorFlow Dataset class (TensorFlow Dataset class tutorials)
 
 -----
 **Сноска (Footnote)**
