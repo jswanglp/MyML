@@ -20,7 +20,7 @@
 - ##### 朴素贝叶斯分类器 (Naive Bayes classifier) ([code](codes/Classic_models/NB.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/NB.ipynb))
 - ##### 隐马尔科夫模型 (Hidden Markov Model, HMM)
 - ##### 最大期望算法 (Expectation Maximization algorithm, EM) ([code](codes/Classic_models/EM.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/EM.ipynb))
-- ##### 混合高斯模型 (Gaussian mixture model, GMM)
+- ##### 混合高斯模型 (Gaussian mixture model, GMM) ([code](codes/Classic_models/GMM.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/GMM.ipynb))
 - ##### 聚类 (Clustering)
     + ##### k-means 聚类 (k-means clustering, k-means) ([code](codes/Classic_models/kmeans.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/kmeans.ipynb))
 - ##### 集成学习 (Ensemble learning)

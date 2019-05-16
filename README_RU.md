@@ -20,7 +20,7 @@
 - ##### Наивный байесовский классификатор (Naive Bayes classifier) ([code](codes/Classic_models/NB.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/NB.ipynb))
 - ##### Скрытая марковская модель (Hidden Markov Model, HMM)
 - ##### EM-алгоритм (Expectation Maximization algorithm, EM) ([code](codes/Classic_models/EM.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/EM.ipynb))
-- ##### Модель гауссовых смесей (Gaussian mixture model, GMM)
+- ##### Модель гауссовых смесей (Gaussian mixture model, GMM) ([code](codes/Classic_models/GMM.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/GMM.ipynb))
 - ##### Кластеризация (Clustering)
     + ##### Метод k-средних (k-means clustering, k-means) ([code](codes/Classic_models/kmeans.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/kmeans.ipynb))
 - ##### Ансамблевое обучение (Ensemble learning)
