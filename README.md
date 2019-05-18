@@ -32,7 +32,7 @@
     + ##### 多层感知机 (Multilayer Perceptron, MLP) ([code](codes/Neural_network_models/Supervised_learning_models/MLP.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/MLP.ipynb))
     + ##### 卷积神经网络 (Convolutional Neural Network, CNN) ([code-keras](codes/Neural_network_models/Supervised_learning_models/CNN_keras.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/CNN_keras.ipynb))
     + ##### 卷积神经网络 (Convolutional Neural Network, CNN) ([code-tf](codes/Neural_network_models/Supervised_learning_models/CNN_tf.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/CNN_tf.ipynb))
-    + ##### 基于 CNN 的人脸识别 (Facial recognition based on CNN)
+    + ##### 基于 CNN 的人脸识别 (Facial recognition based on CNN) ([code](codes/Neural_network_models/Supervised_learning_models/Facial_recognition.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/Facial_recognition.ipynb))
     + ##### 正则化 (Regularization)
     + ##### 批量归一化 (Batch Normalization, BN)
 - ##### 非监督学习模型 (Unsupervised learning models)
