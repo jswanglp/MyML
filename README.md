@@ -44,7 +44,7 @@
 
 #### 其它 (Others)
 - ##### Tensorboard 的使用 (Tensorboard tutorials) ([code](codes/Others/tensorboard_tutorials.py)) ([notebook-in-colab](notebooks(colab)/Others/tensorboard_tutorials.ipynb))
-- ##### TensorFlow Dataset 类的使用 (TensorFlow Dataset class tutorials)
+- ##### TensorFlow Dataset 类的使用 (TensorFlow Dataset class tutorials) ([code](codes/Others/Dataset_tutorials.py)) ([notebook-in-colab](notebooks(colab)/Others/Dataset_tutorials.ipynb))
 
 -----
 **脚注 (Footnote)**

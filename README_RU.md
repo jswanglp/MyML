@@ -44,7 +44,7 @@
 
 #### Другие (Others)
 - ##### Пособия tensorboard (Tensorboard tutorials) ([code](codes/Others/tensorboard_tutorials.py)) ([notebook-in-colab](notebooks(colab)/Others/tensorboard_tutorials.ipynb))
-- ##### Пособия TensorFlow Dataset class (TensorFlow Dataset class tutorials)
+- ##### Пособия TensorFlow Dataset class (TensorFlow Dataset class tutorials) ([code](codes/Others/Dataset_tutorials.py)) ([notebook-in-colab](notebooks(colab)/Others/Dataset_tutorials.ipynb))
 
 -----
 **Сноска (Footnote)**
