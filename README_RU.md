@@ -16,7 +16,7 @@
 - ##### Дерево принятия решений (Decision tree) ([code](codes/Classic_models/Decision_tree_RU.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/Decision_tree_RU.ipynb))
 - ##### Метод опорных векторов (Support Vector Machines, SVM)
     + ##### Снижение с помощью ИНС (Dimensionality reduction with NN) ([code](codes/Classic_models/linear_SVM_RU.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/linear_SVM_RU.ipynb))
-    + ##### Снижение с помощью СНС (Dimensionality reduction with CNN) ([code](codes/Classic_models/linear_SVM(CNN).py)) ([notebook-in-colab](notebooks(colab)/Classic_models/linear_SVM(CNN).ipynb))
+    + ##### Снижение с помощью СНС (Dimensionality reduction with CNN) ([code](codes/Classic_models/linear_SVM(CNN)_RU.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/linear_SVM(CNN)_RU.ipynb))
 - ##### Графовая вероятностная модель (Probabilistic Graphical Model, PGM)
     + ##### Наивный байесовский классификатор (Naive Bayes classifier) ([code](codes/Classic_models/NB.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/NB.ipynb))
     + ##### Скрытая марковская модель (Hidden Markov Model, HMM)
