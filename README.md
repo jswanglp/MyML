@@ -36,6 +36,7 @@
     + ##### 基于 CNN 的人脸识别 (Facial recognition based on CNN) ([code](codes/Neural_network_models/Supervised_learning_models/Facial_recognition.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/Facial_recognition.ipynb))
     + ##### 正则化 (Regularization) ([code](codes/Neural_network_models/Supervised_learning_models/Facial_recognition_l2.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/Facial_recognition_l2.ipynb))
     + ##### 批量归一化 (Batch Normalization, BN) ([code](codes/Neural_network_models/Supervised_learning_models/Facial_recognition_bn.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/Facial_recognition_bn.ipynb))
+    + ##### 小波神经网络 (Wavelet Neural Network, WNN)
 - ##### 非监督学习模型 (Unsupervised learning models)
     + ##### 自编码器 (Autoencoder, AE) ([code](codes/Neural_network_models/Unsupervised_learning_models/AE.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/AE.ipynb))
     + ##### 变分自编码器 (Variational autoencoder, VAE) ([code](codes/Neural_network_models/Unsupervised_learning_models/VAE.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/VAE.ipynb))
