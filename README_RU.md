@@ -23,7 +23,7 @@
     + ##### EM-алгоритм (Expectation Maximization algorithm, EM) ([code](codes/Classic_models/EM_RU.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/EM_RU.ipynb))
     + ##### Модель гауссовых смесей (Gaussian mixture model, GMM) ([code](codes/Classic_models/GMM_RU.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/GMM_RU.ipynb))
 - ##### Кластеризация (Clustering)
-    + ##### Метод k-средних (k-means clustering, k-means) ([code](codes/Classic_models/kmeans.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/kmeans.ipynb))
+    + ##### Метод k-средних (k-means clustering, k-means) ([code](codes/Classic_models/kmeans_RU.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/kmeans_RU.ipynb))
 - ##### Ансамблевое обучение (Ensemble learning)
     + ##### Случайный лес (Random Forest, RF) ([code](codes/Classic_models/RF.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/RF.ipynb))
     + ##### Алгоритм AdaBoost (Adaptive Boosting, AdaBoost) ([code](codes/Classic_models/Adaboost_main.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/Adaboost.ipynb))
