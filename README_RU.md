@@ -19,7 +19,7 @@
     + ##### Снижение с помощью СНС (Dimensionality reduction with CNN) ([code](codes/Classic_models/linear_SVM(CNN)_RU.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/linear_SVM(CNN)_RU.ipynb))
 - ##### Графовая вероятностная модель (Probabilistic Graphical Model, PGM)
     + ##### Наивный байесовский классификатор (Naive Bayes classifier) ([code](codes/Classic_models/NB_RU.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/NB_RU.ipynb))
-    + ##### Скрытая марковская модель (Hidden Markov Model, HMM)
+    + ##### Скрытая марковская модель (Hidden Markov Model, HMM) (Hidden Markov Model, HMM) ([code](codes/Classic_models/HMM.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/HMM.ipynb))
     + ##### EM-алгоритм (Expectation Maximization algorithm, EM) ([code](codes/Classic_models/EM_RU.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/EM_RU.ipynb))
     + ##### Модель гауссовых смесей (Gaussian mixture model, GMM) ([code](codes/Classic_models/GMM_RU.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/GMM_RU.ipynb))
 - ##### Кластеризация (Clustering)
