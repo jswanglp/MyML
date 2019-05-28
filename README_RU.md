@@ -30,7 +30,7 @@
 
 #### Модели нейронных сетей (Neural network models)
 - ##### Модели обучения с учителем (Supervised learning models)
-    + ##### Многослойный персептрон (Multilayer Perceptron, MLP) ([code](codes/Neural_network_models/Supervised_learning_models/MLP.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/MLP.ipynb))
+    + ##### Многослойный персептрон (Multilayer Perceptron, MLP) ([code](codes/Neural_network_models/Supervised_learning_models/MLP_RU.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/MLP_RU.ipynb))
     + ##### Сверточные нейронные сети (Convolutional Neural Network, CNN) ([code-keras](codes/Neural_network_models/Supervised_learning_models/CNN_keras.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/CNN_keras.ipynb))
     + ##### Сверточные нейронные сети (Convolutional Neural Network, CNN) ([code-tf](codes/Neural_network_models/Supervised_learning_models/CNN_tf.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/CNN_tf.ipynb))
     + ##### Распознавание лиц на основе СНС (Facial recognition based on CNN) ([code](codes/Neural_network_models/Supervised_learning_models/Facial_recognition.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/Facial_recognition.ipynb))
