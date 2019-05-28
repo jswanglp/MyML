@@ -35,39 +35,6 @@ def printRed(mess):
 # printRed("Model restored ... ...\n") # 测试
 # print("Model restored ... ...\n")
 #--------------------------------------------------------------------------------------------------
-# 定义打印进度条函数
-def print_progress(progress, epoch_num, loss, acc):
-    """
-    This function draw an active progress bar.
-    :param progress: Where we are:
-                       type: float
-                       value: [0,1]
-    :param epoch_num: number of epochs for training
-    :param loss: The loss for the specific batch in training phase.
-
-    :return: Progressing bar
-    """
-    
-    barLength = 30
-
-    assert type(progress) is float, "id is not a float: %r" % id
-    assert 0 <= progress <= 1, "variable should be between zero and one!"
-
-    # 状态符号
-    status = ""
-
-    # 打印结束后返回 \r\n 换行
-    if progress >= 1:
-        progress = 1
-        status = "\r\n"
-
-    # 状态记录
-    indicator = int(round(barLength*progress))
-
-    list = [str(epoch_num), "#"*indicator , "-"*(barLength-indicator), progress*100, loss, acc, status]
-    text = "\rEpoch {0[0]} {0[1]} {0[2]} {0[3]:.2f}% completed loss={0[4]:.3f}, acc={0[5]:.2f}%{0[6]}".format(list)
-    sys.stdout.write(text)
-    sys.stdout.flush()
 
 if __name__ == "__main__":
 
