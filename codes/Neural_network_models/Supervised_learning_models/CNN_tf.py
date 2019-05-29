@@ -152,7 +152,7 @@ if __name__ == '__main__':
             ax.set_xticks([]), ax.set_yticks([])
     except IndexError:
         pass
-    # ----------------------显示 mnist.test.image 第100幅图像的第二层feature map(14*14*32)------------
+    # ----------------------显示 mnist.test.image 第100幅图像的第二层feature map(7*7*32)------------
 
     features_map = features2.reshape((7, 7, 128))
     num_map = range(features_map.shape[-1])
