@@ -40,7 +40,8 @@
     + ##### Автокодировщик (Autoencoder, AE) ([code](codes/Neural_network_models/Unsupervised_learning_models/AE.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/AE.ipynb))
     + ##### Вариационный автокодировщик (Variational autoencoder, VAE) ([code](codes/Neural_network_models/Unsupervised_learning_models/VAE.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/VAE.ipynb))
     + ##### Генеративно-состязательные сети (Generative Adversarial Networks, GAN) ([code](codes/Neural_network_models/Unsupervised_learning_models/GAN.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/GAN.ipynb))
-    + ##### Глубокие сверточные генеративно-состязательные сети (Deep Convolutional Generative Adversarial Networks, DCGAN) ([code](codes/Neural_network_models/Unsupervised_learning_models/DCGAN.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/DCGAN.ipynb))
+    + ##### Глубокие сверточные генеративно-состязательные сети (mnist) (Deep Convolutional Generative Adversarial Networks, DCGAN) ([code](codes/Neural_network_models/Unsupervised_learning_models/DCGAN.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/DCGAN.ipynb))
+    + ##### Глубокие сверточные генеративно-состязательные сети (FaceWarehouse) (Deep Convolutional Generative Adversarial Networks, DCGAN)
 
 #### Другие (Others)
 - ##### Пособия tensorboard (Tensorboard tutorials) ([code](codes/Others/tensorboard_tutorials.py)) ([notebook-in-colab](notebooks(colab)/Others/tensorboard_tutorials.ipynb))
