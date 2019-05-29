@@ -73,7 +73,7 @@ def discriminator(x, is_training, reuse=False):
         #     # layer_2_op = leakyrelu(layer_2_bn)
         #     layer_2_op = tf.nn.relu(layer_2_bn)
         with tf.name_scope('Output'):
-            w_fct = tf.get_variable(name='weights_fct', shape=[512, 2], initializer=tf.initializers.truncated_normal(stddev=0.1))
+            w_fct = tf.get_variable(name='weights_fct', shape=[1024, 2], initializer=tf.initializers.truncated_normal(stddev=0.1))
             b_fct = tf.get_variable(name='bias_fct', initializer=tf.constant(0.1, shape=[2]))
             layer_2 = tf.matmul(layer_1_op, w_fct) + b_fct
     return layer_2
@@ -83,7 +83,7 @@ if __name__ == '__main__':
     # 参数设置
     num_epochs = 10000 #@param {type: "integer"}
     batch_size = 128 #@param {type: "integer"}
-    lr_generator = 6e-4 #@param {type: "number"}
+    lr_generator = 8e-4 #@param {type: "number"}
     lr_discriminator = 2e-3 #@param {type: "number"}
     image_dim = 784 # 图像像素数
     noise_dim = 100 # 噪声维数
@@ -100,7 +100,7 @@ if __name__ == '__main__':
             batch_s = tf.placeholder(tf.int32)
             is_training = tf.placeholder(tf.bool)
 
-        with tf.name_scope('Networks'):
+        with tf.name_scope('Network'):
             gen_sample = generator(noise_input, batch_s, noise_dim, num_neuron, is_training)
 
             disc_real = discriminator(real_image_input, is_training)
@@ -123,9 +123,9 @@ if __name__ == '__main__':
 
             # TensorFlow 默认每次更新所有变量，所以需要设置，使得每次更新只更新指定的变量
             # 生成网络的变量
-            gen_vars = tf.get_collection(tf.GraphKeys.TRAINABLE_VARIABLES, scope='Networks/Generator')
+            gen_vars = tf.get_collection(tf.GraphKeys.TRAINABLE_VARIABLES, scope='Network/Generator')
             # 判别网络的变量
-            disc_vars = tf.get_collection(tf.GraphKeys.TRAINABLE_VARIABLES, scope='Networks/Discriminator')
+            disc_vars = tf.get_collection(tf.GraphKeys.TRAINABLE_VARIABLES, scope='Network/Discriminator')
 
         with tf.name_scope('Train'):
             # TensorFlow UPDATE_OPS collection 收集所有批量的归一化操作并更新 moving mean/stddev
@@ -190,4 +190,6 @@ if __name__ == '__main__':
         # img_name1 = os.path.join(event_path, 'generated_images_by_GAN1.jpg')
         # plt.savefig(img_name1)
         plt.show()
+        
+    sum_writer.close()
     sess.close()
