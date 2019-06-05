@@ -30,6 +30,7 @@
 
 #### 神经网络模型 (Neural network models)
 - ##### 监督学习模型 (Supervised learning models)
+    + ##### 曲线拟合 (Curve fitting) ([code](codes/Neural_network_models/Supervised_learning_models/curve_fitting.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/curve_fitting.ipynb))
     + ##### 多层感知机 (Multilayer Perceptron, MLP) ([code](codes/Neural_network_models/Supervised_learning_models/MLP.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/MLP.ipynb))
     + ##### 卷积神经网络 (Convolutional Neural Network, CNN) ([code-keras](codes/Neural_network_models/Supervised_learning_models/CNN_keras.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/CNN_keras.ipynb))
     + ##### 卷积神经网络 (Convolutional Neural Network, CNN) ([code-tf](codes/Neural_network_models/Supervised_learning_models/CNN_tf.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/CNN_tf.ipynb))
