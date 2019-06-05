@@ -1,5 +1,5 @@
-# 该程序通过含一个隐层的神经网络对输入数据进行拟合
-# 可以与岭回归的结果做比较
+# В программе реализовано приближение исходных данных с помощью нейронных сетей с одным скрытым слоем
+# Можно сравнить с результатами метода регуляризации Тихонова
 # conding: utf-8
 import numpy as np
 import tensorflow as tf
@@ -10,7 +10,7 @@ import time
 if __name__ == '__main__':
     
     num_epoch = 200
-    # 样本数据的预处理
+    # Предварительная обработка данных образца
     data = np.array([[-2.95507616, 10.94533252],
                     [-0.44226119, 2.96705822],
                     [-2.13294087, 6.57336839],
@@ -25,10 +25,10 @@ if __name__ == '__main__':
     y = data[:, 1]
     X = x.reshape(-1, 1)
     Y = y.reshape(-1, 1)
-    # 预测数据数量多于初始数据样本数
+    # Более прогнозируемые данные, чем исходные данные
     x_pre = np.linspace(x.min(), x.max(), 30, endpoint=True).reshape(-1, 1)
 
-    # 网络图设置
+    # Создание graph
     graph = tf.Graph()
     with graph.as_default():
         with tf.name_scope('Input'):
@@ -48,7 +48,7 @@ if __name__ == '__main__':
         with tf.name_scope('Train'):
             train_op = tf.train.AdamOptimizer(learning_rate=3e-1).minimize(loss)
 
-    # 模型训练
+    # Обучение модели
     with tf.Session(graph=graph) as sess:
         sess.run(tf.global_variables_initializer())
 
@@ -66,7 +66,7 @@ if __name__ == '__main__':
         t = time_end - time_start
         print('Running time is: %.4f' % t)
     
-    # 预测曲线
+    # Кривая прогнозирования
     data_pre = np.c_[x_pre, y_pre]
     DATA = [data, data_pre]
     NAME = ['Training data', 'Fitting curve']
