@@ -30,6 +30,7 @@
 
 #### Модели нейронных сетей (Neural network models)
 - ##### Модели обучения с учителем (Supervised learning models)
+    + ##### Приближение с помощью кривых (Curve fitting) ([code](codes/Neural_network_models/Supervised_learning_models/curve_fitting_RU.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/curve_fitting_RU.ipynb))
     + ##### Многослойный персептрон (Multilayer Perceptron, MLP) ([code](codes/Neural_network_models/Supervised_learning_models/MLP_RU.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/MLP_RU.ipynb))
     + ##### Сверточные нейронные сети (Convolutional Neural Network, CNN) ([code-keras](codes/Neural_network_models/Supervised_learning_models/CNN_keras_RU.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/CNN_keras_RU.ipynb))
     + ##### Сверточные нейронные сети (Convolutional Neural Network, CNN) ([code-tf](codes/Neural_network_models/Supervised_learning_models/CNN_tf_RU.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/CNN_tf_RU.ipynb))
