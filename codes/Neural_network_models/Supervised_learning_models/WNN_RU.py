@@ -1,13 +1,13 @@
-# 该程序通过含一个隐层的小波神经网络对输入数据进行拟合
-# 可以与岭回归、神经网络的结果做比较
-# 小波神经网络明显收敛速度更快
+# В программе реализовано приближение исходных данных с помощью вейвлет-нейронных сетей с одным скрытым слоем
+# Можно сравнить с результатами метода регуляризации Тихонова, ИНС
+# Вейвлет-нейронные сети явно сходятся быстрее
 # conding: utf-8
 import numpy as np
 import tensorflow as tf
 import matplotlib.pyplot as plt
 # import time
 
-# POLYWOG 小波函数
+# POLYWOG вейвлет-функции
 def POLYWOG(x, name='POLYWOG1'):
     k1, k2, k3, k4 = tf.sqrt(tf.exp(1.)), 0.7246, 1. / 3, 1.
     c_exp = tf.exp(-.5 * tf.pow(x, 2))
@@ -22,7 +22,7 @@ def POLYWOG(x, name='POLYWOG1'):
     
 if __name__ == '__main__':
     
-    # # -------------------4种不同类型的 POLYWOG 小波函数---------------------
+    # # -------------------4 различных POLYWOG вейвлет-функций---------------------
     # x = np.linspace(-10, 10, 201,endpoint=True)
     # k1, k2, k3, k4 = np.sqrt(np.e), 0.7246, 1 / 3., 1.
     # c_exp = np.exp(-.5 * x**2)
@@ -51,8 +51,8 @@ if __name__ == '__main__':
     # # ----------------------------------------------------------------------
 
     num_epoch = 100
-    name_wavelet = 'POLYWOG1' # 4种不同的小波函数
-    # 样本数据的预处理
+    name_wavelet = 'POLYWOG1' # 4 различных вейвлет-функций
+    # Предварительная обработка данных образца
     data = np.array([[-2.95507616, 10.94533252],
                     [-0.44226119, 2.96705822],
                     [-2.13294087, 6.57336839],
@@ -67,10 +67,10 @@ if __name__ == '__main__':
     y = data[:, 1]
     X = x.reshape(-1, 1)
     Y = y.reshape(-1, 1)
-    # 预测数据数量多于初始数据样本数
+    # Более прогнозируемые данные, чем исходные данные
     x_pre = np.linspace(x.min(), x.max(), 30, endpoint=True).reshape(-1, 1)
 
-    # 网络图设置
+    # Создание graph
     graph = tf.Graph()
     with graph.as_default():
         with tf.name_scope('Input'):
@@ -95,7 +95,7 @@ if __name__ == '__main__':
         with tf.name_scope('Train'):
             train_op = tf.train.AdamOptimizer(learning_rate=3e-1).minimize(loss)
 
-    # 模型训练
+    # Обучение модели
     with tf.Session(graph=graph) as sess:
         sess.run(tf.global_variables_initializer())
 
@@ -112,12 +112,12 @@ if __name__ == '__main__':
     #     time_end = time.time()
     #     t = time_end - time_start
     #     print('Running time is: %.4f s.' % t)
-    # 每个神经元的放缩因子
+    # Коэффициент сжатия для каждого нейрона
     t_wavelet
-    # 每个神经元的偏移
+    # Коэффициент смещения каждого нейрона
     s_wavelet
 
-    # 激活函数为 POLYWOG1
+    # Функция активации - POLYWOG1
     data_pre = np.c_[x_pre, y_pre]
     DATA = [data, data_pre]
     NAME = ['Training data', 'Fitting curve']
