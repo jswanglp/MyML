@@ -2,6 +2,8 @@
 > 温故而知新，可以为师矣<a href='#fn1' name='fn1b'><sup>[1]</sup></a>。
 - [русско-английский](README_RU.md)
 
+花了一个多月把之前写的一些关于机器学习、深度学习的模型都重新编译并且跑了一遍，渣渣电脑，幸好有Google的羊毛可以薅，省出很多时间可以把代码的注释翻译成[俄语版本](README_RU.md)，总算快完工了🤣，可以投入新的战场了😊。
+
 ## 机器学习 (Machine learning)
 
 #### 线性模型 (Linear models)
@@ -47,7 +49,15 @@
 
 #### 其它 (Others)
 - ##### Tensorboard 的使用 (Tensorboard tutorials) ([code](codes/Others/tensorboard_tutorials.py)) ([notebook-in-colab](notebooks(colab)/Others/tensorboard_tutorials.ipynb))
+
 - ##### TensorFlow Dataset 类的使用 (TensorFlow Dataset class tutorials) ([code](codes/Others/Dataset_tutorials.py)) ([notebook-in-colab](notebooks(colab)/Others/Dataset_tutorials.ipynb))
+
+#### 有用的教程 (Useful tutorials)
+- ##### [TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples)
+- ##### [TensorFlow-Course](https://github.com/machinelearningmindset/TensorFlow-Course)
+- ##### [statistical-learning-method](https://github.com/wzyonggege/statistical-learning-method)
+- ##### [datasets](https://github.com/tensorflow/datasets)
+- ##### [tensorboard](https://github.com/tensorflow/tensorboard)
 
 -----
 **脚注 (Footnote)**

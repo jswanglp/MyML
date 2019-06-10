@@ -2,6 +2,8 @@
 > Повторение - мать учения<a href='#fn1' name='fn1b'><sup>[1]</sup></a>.
 - [中英文](README.md)
 
+Для перекомпиляции и запуска некоторых предыдущих моделей машинного обучения и глубокого обучения потребовалось более месяца. Видеокарта моего компьютера слишком плохая, к счастью, Google предоставляет нам GPU бесплатно. Это экономит много времени, и я могу перевести комментарии кодов на [русский язык](README_RU.md). Этот репозиторий почти закончен🤣, и пришло время готовиться к новому полю боя😊.
+
 ## Машинное обучение (Machine learning)
 
 #### Линейные модели (Linear models)
@@ -46,9 +48,15 @@
     + ##### Глубокие сверточные генеративно-состязательные сети (FaceWarehouse) (Deep Convolutional Generative Adversarial Networks, DCGAN) ([code](codes/Neural_network_models/Unsupervised_learning_models/DCGAN_for_faces_RU.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/DCGAN_for_faces_RU.ipynb))
 
 #### Другие (Others)
+- ##### Учебные пособия tensorboard (Tensorboard tutorials) ([code](codes/Others/tensorboard_tutorials.py)) ([notebook-in-colab](notebooks(colab)/Others/tensorboard_tutorials.ipynb))
+- ##### Учебные пособия TensorFlow Dataset class (TensorFlow Dataset class tutorials) ([code](codes/Others/Dataset_tutorials.py)) ([notebook-in-colab](notebooks(colab)/Others/Dataset_tutorials.ipynb))
 
-- ##### Пособия tensorboard (Tensorboard tutorials) ([code](codes/Others/tensorboard_tutorials.py)) ([notebook-in-colab](notebooks(colab)/Others/tensorboard_tutorials.ipynb))
-- ##### Пособия TensorFlow Dataset class (TensorFlow Dataset class tutorials) ([code](codes/Others/Dataset_tutorials.py)) ([notebook-in-colab](notebooks(colab)/Others/Dataset_tutorials.ipynb))
+#### Полезные учебные пособия (Useful tutorials)
+- ##### [TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples)
+- ##### [TensorFlow-Course](https://github.com/machinelearningmindset/TensorFlow-Course)
+- ##### [statistical-learning-method](https://github.com/wzyonggege/statistical-learning-method)
+- ##### [datasets](https://github.com/tensorflow/datasets)
+- ##### [tensorboard](https://github.com/tensorflow/tensorboard)
 
 -----
 **Сноска (Footnote)**
