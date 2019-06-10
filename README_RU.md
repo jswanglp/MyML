@@ -53,7 +53,7 @@
 
 #### Полезные учебные пособия (Useful tutorials)
 - ##### [TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples) Учебное пособие по TensorFlow для начинающих
-- ##### [TensorFlow-Course](https://github.com/machinelearningmindset/TensorFlow-Course) Другое простое учебное пособие, которое включают в себя `code` и ` jupyter notebook`
+- ##### [TensorFlow-Course](https://github.com/machinelearningmindset/TensorFlow-Course) Другое простое учебное пособие, которое включает в себя `code` и ` jupyter notebook`
 - ##### [Statistical-learning-method](https://github.com/wzyonggege/statistical-learning-method) Реализация некоторых статистических моделей при использовании `Python`
 - ##### [TensorFlow Datasets](https://github.com/tensorflow/datasets) Учебное пособие TensorFlow Datasets
 - ##### [Tensorboard](https://github.com/tensorflow/tensorboard) Использование инструмента визуализации TensorFlow Tensorboard
