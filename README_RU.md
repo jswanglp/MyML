@@ -9,10 +9,11 @@
 #### Линейные модели (Linear models)
 - ##### Линейная регрессия (Linear regression)
     + ##### Градиентный спуск (Gradient descent) ([code](codes/Linear_models/linear_regression_RU.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/linear_regression_RU.ipynb))
-    + ##### Метод регуляризации Тихонова (Ridge regression) ([code](codes/Linear_models/RR_RU.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/RR_RU.ipynb))
+    + ##### Метод регуляризации Тихонова (Ridge regression) ([code](codes/Linear_models/RR_RU.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/RR_RU.ipynb)) ([kaggle-kernel](https://www.kaggle.com/jswanglp/ridge-regression))
 - ##### Логистическая регрессия (Logistic regression) ([code](codes/Linear_models/logistic_regression_RU.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/logistic_regression_RU.ipynb))
 
 #### Классические модели (Classic models)
+
 - ##### Метод главных компонент (Principal Component Analysis, PCA) ([code](codes/Classic_models/PCA_RU.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/PCA_RU.ipynb))
 - ##### Метод k-ближайших соседей (k-nearest neighbors algorithm, k-NN) ([code](codes/Classic_models/KNN_main_RU.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/KNN_RU.ipynb))
 - ##### Дерево принятия решений (Decision tree) ([code](codes/Classic_models/Decision_tree_RU.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/Decision_tree_RU.ipynb))
