@@ -32,10 +32,10 @@
 
 #### 神经网络模型 (Neural network models)
 - ##### 监督学习模型 (Supervised learning models)
-    + ##### 曲线拟合 (Curve fitting) ([code](codes/Neural_network_models/Supervised_learning_models/curve_fitting.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/curve_fitting.ipynb))
+    + ##### 曲线拟合 (Curve fitting) ([code](codes/Neural_network_models/Supervised_learning_models/curve_fitting.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/curve_fitting.ipynb)) ([kaggle-kernel](https://www.kaggle.com/jswanglp/curve-fitting))
     + ##### 多层感知机 (Multilayer Perceptron, MLP) ([code](codes/Neural_network_models/Supervised_learning_models/MLP.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/MLP.ipynb))
     + ##### 卷积神经网络 (Convolutional Neural Network, CNN) ([code-keras](codes/Neural_network_models/Supervised_learning_models/CNN_keras.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/CNN_keras.ipynb))
-    + ##### 卷积神经网络 (Convolutional Neural Network, CNN) ([code-tf](codes/Neural_network_models/Supervised_learning_models/CNN_tf.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/CNN_tf.ipynb))
+    + ##### 卷积神经网络 (Convolutional Neural Network, CNN) ([code-tf](codes/Neural_network_models/Supervised_learning_models/CNN_tf.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/CNN_tf.ipynb)) ([kaggle-kernel](https://www.kaggle.com/jswanglp/cnn-tf))
     + ##### 基于 CNN 的人脸识别 (Facial recognition based on CNN) ([code](codes/Neural_network_models/Supervised_learning_models/Facial_recognition.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/Facial_recognition.ipynb))
     + ##### 正则化 (Regularization) ([code](codes/Neural_network_models/Supervised_learning_models/Facial_recognition_l2.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/Facial_recognition_l2.ipynb))
     + ##### 批量归一化 (Batch Normalization, BN) ([code](codes/Neural_network_models/Supervised_learning_models/Facial_recognition_bn.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/Facial_recognition_bn.ipynb))
@@ -43,7 +43,7 @@
 - ##### 非监督学习模型 (Unsupervised learning models)
     + ##### 自编码器 (Autoencoder, AE) ([code](codes/Neural_network_models/Unsupervised_learning_models/AE.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/AE.ipynb))
     + ##### 变分自编码器 (Variational autoencoder, VAE) ([code](codes/Neural_network_models/Unsupervised_learning_models/VAE.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/VAE.ipynb))
-    + ##### 生成对抗网络 (Generative Adversarial Networks, GAN) ([code](codes/Neural_network_models/Unsupervised_learning_models/GAN.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/GAN.ipynb))
+    + ##### 生成对抗网络 (Generative Adversarial Networks, GAN) ([code](codes/Neural_network_models/Unsupervised_learning_models/GAN.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/GAN.ipynb)) ([kaggle-kernel](https://www.kaggle.com/jswanglp/gan-tf))
     + ##### 深度卷积生成对抗网络 (mnist) (Deep Convolutional Generative Adversarial Networks, DCGAN) ([code](codes/Neural_network_models/Unsupervised_learning_models/DCGAN.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/DCGAN.ipynb))
     + ##### 深度卷积生成对抗网络 (FaceWarehouse) (Deep Convolutional Generative Adversarial Networks, DCGAN) ([code](codes/Neural_network_models/Unsupervised_learning_models/DCGAN_for_faces.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/DCGAN_for_faces.ipynb))
 
@@ -53,11 +53,11 @@
 - ##### TensorFlow Dataset 类的使用 (TensorFlow Dataset class tutorials) ([code](codes/Others/Dataset_tutorials.py)) ([notebook-in-colab](notebooks(colab)/Others/Dataset_tutorials.ipynb))
 
 #### 有用的教程 (Useful tutorials)
-- ##### [TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples)
-- ##### [TensorFlow-Course](https://github.com/machinelearningmindset/TensorFlow-Course)
-- ##### [statistical-learning-method](https://github.com/wzyonggege/statistical-learning-method)
-- ##### [datasets](https://github.com/tensorflow/datasets)
-- ##### [tensorboard](https://github.com/tensorflow/tensorboard)
+- ##### [TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples) 适用于初学者的 TensorFlow 教程
+- ##### [TensorFlow-Course](https://github.com/machinelearningmindset/TensorFlow-Course) 另一个简易教程，包含 `code` 与 ` jupyter notebook`
+- ##### [Statistical-learning-method](https://github.com/wzyonggege/statistical-learning-method) 通过 `Python` 实现的一些统计学模型
+- ##### [TensorFlow Datasets](https://github.com/tensorflow/datasets) TensorFlow 中数据集类的使用
+- ##### [Tensorboard](https://github.com/tensorflow/tensorboard) TensorFlow 可视化工具 Tensorboard 的使用
 
 -----
 **脚注 (Footnote)**

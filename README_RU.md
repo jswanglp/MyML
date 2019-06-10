@@ -32,10 +32,10 @@
 
 #### Модели нейронных сетей (Neural network models)
 - ##### Модели обучения с учителем (Supervised learning models)
-    + ##### Приближение с помощью кривых (Curve fitting) ([code](codes/Neural_network_models/Supervised_learning_models/curve_fitting_RU.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/curve_fitting_RU.ipynb))
+    + ##### Приближение с помощью кривых (Curve fitting) ([code](codes/Neural_network_models/Supervised_learning_models/curve_fitting_RU.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/curve_fitting_RU.ipynb)) ([kaggle-kernel](https://www.kaggle.com/jswanglp/curve-fitting))
     + ##### Многослойный персептрон (Multilayer Perceptron, MLP) ([code](codes/Neural_network_models/Supervised_learning_models/MLP_RU.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/MLP_RU.ipynb))
     + ##### Сверточные нейронные сети (Convolutional Neural Network, CNN) ([code-keras](codes/Neural_network_models/Supervised_learning_models/CNN_keras_RU.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/CNN_keras_RU.ipynb))
-    + ##### Сверточные нейронные сети (Convolutional Neural Network, CNN) ([code-tf](codes/Neural_network_models/Supervised_learning_models/CNN_tf_RU.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/CNN_tf_RU.ipynb))
+    + ##### Сверточные нейронные сети (Convolutional Neural Network, CNN) ([code-tf](codes/Neural_network_models/Supervised_learning_models/CNN_tf_RU.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/CNN_tf_RU.ipynb)) ([kaggle-kernel](https://www.kaggle.com/jswanglp/cnn-tf))
     + ##### Распознавание лиц на основе СНС (Facial recognition based on CNN) ([code](codes/Neural_network_models/Supervised_learning_models/Facial_recognition_RU.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/Facial_recognition_RU.ipynb))
     + ##### Регуляризация (Regularization) ([code](codes/Neural_network_models/Supervised_learning_models/Facial_recognition_l2_RU.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/Facial_recognition_l2_RU.ipynb))
     + ##### Батч-нормализация (Batch Normalization, BN) ([code](codes/Neural_network_models/Supervised_learning_models/Facial_recognition_bn_RU.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/Facial_recognition_bn_RU.ipynb))
@@ -43,7 +43,7 @@
 - ##### Модели обучения без учителя (Unsupervised learning models)
     + ##### Автокодировщик (Autoencoder, AE) ([code](codes/Neural_network_models/Unsupervised_learning_models/AE_RU.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/AE_RU.ipynb))
     + ##### Вариационный автокодировщик (Variational autoencoder, VAE) ([code](codes/Neural_network_models/Unsupervised_learning_models/VAE_RU.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/VAE_RU.ipynb))
-    + ##### Генеративно-состязательные сети (Generative Adversarial Networks, GAN) ([code](codes/Neural_network_models/Unsupervised_learning_models/GAN_RU.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/GAN_RU.ipynb))
+    + ##### Генеративно-состязательные сети (Generative Adversarial Networks, GAN) ([code](codes/Neural_network_models/Unsupervised_learning_models/GAN_RU.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/GAN_RU.ipynb)) ([kaggle-kernel](https://www.kaggle.com/jswanglp/gan-tf))
     + ##### Глубокие сверточные генеративно-состязательные сети (mnist) (Deep Convolutional Generative Adversarial Networks, DCGAN) ([code](codes/Neural_network_models/Unsupervised_learning_models/DCGAN_RU.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/DCGAN_RU.ipynb))
     + ##### Глубокие сверточные генеративно-состязательные сети (FaceWarehouse) (Deep Convolutional Generative Adversarial Networks, DCGAN) ([code](codes/Neural_network_models/Unsupervised_learning_models/DCGAN_for_faces_RU.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/DCGAN_for_faces_RU.ipynb))
 
@@ -52,11 +52,11 @@
 - ##### Учебные пособия TensorFlow Dataset class (TensorFlow Dataset class tutorials) ([code](codes/Others/Dataset_tutorials.py)) ([notebook-in-colab](notebooks(colab)/Others/Dataset_tutorials.ipynb))
 
 #### Полезные учебные пособия (Useful tutorials)
-- ##### [TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples)
-- ##### [TensorFlow-Course](https://github.com/machinelearningmindset/TensorFlow-Course)
-- ##### [statistical-learning-method](https://github.com/wzyonggege/statistical-learning-method)
-- ##### [datasets](https://github.com/tensorflow/datasets)
-- ##### [tensorboard](https://github.com/tensorflow/tensorboard)
+- ##### [TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples) Учебное пособие по TensorFlow для начинающих
+- ##### [TensorFlow-Course](https://github.com/machinelearningmindset/TensorFlow-Course) Другое простое учебное пособие, которое включают в себя `code` и ` jupyter notebook`
+- ##### [Statistical-learning-method](https://github.com/wzyonggege/statistical-learning-method) Реализация некоторых статистических моделей при использовании `Python`
+- ##### [TensorFlow Datasets](https://github.com/tensorflow/datasets) Учебное пособие TensorFlow Datasets
+- ##### [Tensorboard](https://github.com/tensorflow/tensorboard) Использование инструмента визуализации TensorFlow Tensorboard
 
 -----
 **Сноска (Footnote)**
