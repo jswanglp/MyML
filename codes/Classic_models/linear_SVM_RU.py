@@ -8,6 +8,18 @@ import tensorflow.examples.tutorials.mnist.input_data as input_data
 
 tf.logging.set_verbosity(tf.logging.ERROR)
 
+# Таймер-декоратор
+import time
+def timer(func):
+    def wrapper(*args, **kwargs):
+        start_time = time.time()
+        result = func(*args, **kwargs)
+        end_time = time.time()
+        t = end_time - start_time
+        print('This operation takes {} s.'.format(t))
+        return result
+    return wrapper
+
 if __name__ == '__main__':
 
     # Настройка параметров
@@ -35,6 +47,7 @@ if __name__ == '__main__':
         return accuracy
     
     # Извлечение индексов изображений 0 или 1
+    @timer
     def extraction_fn(data): 
         index_list = []
         for idx in range(data.shape[0]):
