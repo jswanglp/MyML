@@ -28,7 +28,7 @@
     + ##### k-means 聚类 (k-means clustering, k-means) ([code](codes/Classic_models/kmeans.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/kmeans.ipynb))
 - ##### 集成学习 (Ensemble learning)
     + ##### 随机森林 (Random Forest, RF) ([code](codes/Classic_models/RF.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/RF.ipynb))
-    + ##### AdaBoost 算法 (Adaptive Boosting, AdaBoost) ([code](codes/Classic_models/Adaboost_main.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/Adaboost.ipynb))
+    + ##### AdaBoost 算法 (Adaptive Boosting, AdaBoost) ([code](codes/Classic_models/Adaboost_main.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/Adaboost.ipynb)) ([kaggle-kernel](https://www.kaggle.com/jswanglp/adaboost))
 
 #### 神经网络模型 (Neural network models)
 - ##### 监督学习模型 (Supervised learning models)
