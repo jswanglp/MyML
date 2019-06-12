@@ -49,10 +49,11 @@
     + ##### Глубокие сверточные генеративно-состязательные сети (FaceWarehouse) (Deep Convolutional Generative Adversarial Networks, DCGAN) ([code](codes/Neural_network_models/Unsupervised_learning_models/DCGAN_for_faces_RU.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/DCGAN_for_faces_RU.ipynb))
 
 #### Другие (Others)
-- ##### Учебные пособия tensorboard (Tensorboard tutorials) ([code](codes/Others/tensorboard_tutorials.py)) ([notebook-in-colab](notebooks(colab)/Others/tensorboard_tutorials.ipynb))
+- ##### Учебные пособия tensorboard (Tensorboard tutorials) ([code](codes/Others/tensorboard_tutorials_RU.py)) ([notebook-in-colab](notebooks(colab)/Others/tensorboard_tutorials_RU.ipynb))
 - ##### Учебные пособия TensorFlow Dataset class (TensorFlow Dataset class tutorials) ([code](codes/Others/Dataset_tutorials.py)) ([notebook-in-colab](notebooks(colab)/Others/Dataset_tutorials.ipynb))
 
 #### Полезные учебные пособия (Useful tutorials)
+
 - ##### [TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples) Учебное пособие по TensorFlow для начинающих
 - ##### [TensorFlow-Course](https://github.com/machinelearningmindset/TensorFlow-Course) Другое простое учебное пособие, которое включает в себя `code` и ` jupyter notebook`
 - ##### [Statistical-learning-method](https://github.com/wzyonggege/statistical-learning-method) Реализация некоторых статистических моделей при использовании `Python`
