@@ -50,7 +50,7 @@
 
 #### Другие (Others)
 - ##### Учебные пособия tensorboard (Tensorboard tutorials) ([code](codes/Others/tensorboard_tutorials_RU.py)) ([notebook-in-colab](notebooks(colab)/Others/tensorboard_tutorials_RU.ipynb))
-- ##### Учебные пособия TensorFlow Dataset class (TensorFlow Dataset class tutorials) ([code](codes/Others/Dataset_tutorials.py)) ([notebook-in-colab](notebooks(colab)/Others/Dataset_tutorials.ipynb))
+- ##### Учебные пособия TensorFlow Dataset class (TensorFlow Dataset class tutorials) ([code](codes/Others/Dataset_tutorials_RU.py)) ([notebook-in-colab](notebooks(colab)/Others/Dataset_tutorials_RU.ipynb))
 
 #### Полезные учебные пособия (Useful tutorials)
 
