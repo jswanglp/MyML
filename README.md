@@ -8,7 +8,7 @@
 
 #### 线性模型 (Linear models)
 - ##### 线性回归 (Linear regression)
-    + ##### 梯度下降 (Gradient descent) ([code](codes/Linear_models/linear_regression.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/linear_regression.ipynb))
+    + ##### 梯度下降 (Gradient descent) ([code](codes/Linear_models/linear_regression.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/linear_regression.ipynb)) 一个关于[梯度下降算法](https://en.wikipedia.org/wiki/Gradient_descent)与 [Levenberg–Marquardt 算法](https://en.wikipedia.org/wiki/Levenberg%E2%80%93Marquardt_algorithm)比较的例子在这个 [repo](https://github.com/jswanglp/Levenberg-Marquardt-algorithm/blob/master/README.pdf)
     + ##### 岭回归 (Ridge regression) ([code](codes/Linear_models/RR.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/RR.ipynb)) ([kaggle-kernel](https://www.kaggle.com/jswanglp/ridge-regression))
 - ##### 逻辑回归 (Logistic regression) ([code](codes/Linear_models/logistic_regression.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/logistic_regression.ipynb))
 
