@@ -1,4 +1,5 @@
 # MyML
+
 > 温故而知新，可以为师矣<a href='#fn1' name='fn1b'><sup>[1]</sup></a>。
 - [русско-английский](README_RU.md)
 
@@ -8,7 +9,7 @@
 
 #### 线性模型 (Linear models)
 - ##### 线性回归 (Linear regression)
-    + ##### 梯度下降 (Gradient descent) ([code](codes/Linear_models/linear_regression.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/linear_regression.ipynb)) 一个关于[梯度下降算法](https://en.wikipedia.org/wiki/Gradient_descent)与 [Levenberg–Marquardt 算法](https://en.wikipedia.org/wiki/Levenberg%E2%80%93Marquardt_algorithm)比较的例子在这个 [repo](https://github.com/jswanglp/Levenberg-Marquardt-algorithm/blob/master/README.pdf)
+    + ##### 梯度下降 (Gradient descent) ([code](codes/Linear_models/linear_regression.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/linear_regression.ipynb)) 一个关于[梯度下降](https://en.wikipedia.org/wiki/Gradient_descent)与 [Levenberg–Marquardt 算法](https://en.wikipedia.org/wiki/Levenberg%E2%80%93Marquardt_algorithm)比较的例子在这个 [repo](https://github.com/jswanglp/Levenberg-Marquardt-algorithm/blob/master/README.pdf)
     + ##### 岭回归 (Ridge regression) ([code](codes/Linear_models/RR.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/RR.ipynb)) ([kaggle-kernel](https://www.kaggle.com/jswanglp/ridge-regression))
 - ##### 逻辑回归 (Logistic regression) ([code](codes/Linear_models/logistic_regression.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/logistic_regression.ipynb))
 
@@ -49,10 +50,11 @@
 
 #### 其它 (Others)
 - ##### Tensorboard 的使用 (Tensorboard tutorials) ([code](codes/Others/tensorboard_tutorials.py)) ([notebook-in-colab](notebooks(colab)/Others/tensorboard_tutorials.ipynb))
-
 - ##### TensorFlow Dataset 类的使用 (TensorFlow Dataset class tutorials) ([code](codes/Others/Dataset_tutorials.py)) ([notebook-in-colab](notebooks(colab)/Others/Dataset_tutorials.ipynb))
+- ##### VGG 网络在图像分类任务中的应用 (Application of VGG networks in image classification task) ([code](codes/Others/VGG16.py)) ([notebook-in-colab](notebooks(colab)/Others/VGG16.ipynb))
 
 #### 有用的教程 (Useful tutorials)
+
 - ##### [TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples) 适用于初学者的 TensorFlow 教程
 - ##### [TensorFlow-Course](https://github.com/machinelearningmindset/TensorFlow-Course) 另一个简易教程，包含 `code` 与 ` jupyter notebook`
 - ##### [Statistical-learning-method](https://github.com/wzyonggege/statistical-learning-method) 通过 `Python` 实现的一些统计学模型
