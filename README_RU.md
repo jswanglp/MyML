@@ -51,7 +51,7 @@
 #### Другие (Others)
 - ##### Учебные пособия tensorboard (Tensorboard tutorials) ([code](codes/Others/tensorboard_tutorials_RU.py)) ([notebook-in-colab](notebooks(colab)/Others/tensorboard_tutorials_RU.ipynb))
 - ##### Учебные пособия TensorFlow Dataset class (TensorFlow Dataset class tutorials) ([code](codes/Others/Dataset_tutorials_RU.py)) ([notebook-in-colab](notebooks(colab)/Others/Dataset_tutorials_RU.ipynb))
-- ##### Применение VGG сетей в задаче классификации изображений (Application of VGG networks in image classification task)
+- ##### Применение VGG сетей в задаче классификации изображений (Application of VGG networks in image classification task) ([code](codes/Others/VGG16_RU.py)) ([notebook-in-colab](notebooks(colab)/Others/VGG16_RU.ipynb))
 
 #### Полезные учебные пособия (Useful tutorials)
 
