@@ -9,8 +9,9 @@
 
 #### 线性模型 (Linear models)
 - ##### 线性回归 (Linear regression)
-    + ##### 梯度下降 (Gradient descent) ([code](codes/Linear_models/linear_regression.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/linear_regression.ipynb)) 一个关于[梯度下降](https://en.wikipedia.org/wiki/Gradient_descent)与 [Levenberg–Marquardt 算法](https://en.wikipedia.org/wiki/Levenberg%E2%80%93Marquardt_algorithm)比较的例子在这个 [repo](https://github.com/jswanglp/Levenberg-Marquardt-algorithm/blob/master/README.pdf)
+    + ##### 梯度下降 (Gradient descent) ([code](codes/Linear_models/linear_regression.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/linear_regression.ipynb)) 一个关于[梯度下降](https://en.wikipedia.org/wiki/Gradient_descent)与 [Levenberg–Marquardt 算法](https://en.wikipedia.org/wiki/Levenberg%E2%80%93Marquardt_algorithm)比较的例子在这个 [repo](https://github.com/jswanglp/Levenberg-Marquardt-algorithm/blob/master/README.pdf)。
     + ##### 岭回归 (Ridge regression) ([code](codes/Linear_models/RR.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/RR.ipynb)) ([kaggle-kernel](https://www.kaggle.com/jswanglp/ridge-regression))
+    + ##### 监督下降法 (Supervised Descent Method, SDM) ([code]()) ([notebook-in-colab]()) 虽不属于线性模型，但例子中的理想参数是通过岭回归找到的。
 - ##### 逻辑回归 (Logistic regression) ([code](codes/Linear_models/logistic_regression.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/logistic_regression.ipynb))
 
 #### 几种经典模型 (Classic models)

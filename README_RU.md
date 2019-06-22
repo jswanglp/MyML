@@ -8,8 +8,9 @@
 
 #### Линейные модели (Linear models)
 - ##### Линейная регрессия (Linear regression)
-    + ##### Градиентный спуск (Gradient descent) ([code](codes/Linear_models/linear_regression_RU.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/linear_regression_RU.ipynb)) Другой пример сравнения между [алгоритмом градиентного спуска](https://en.wikipedia.org/wiki/Gradient_descent) и [алгоритмом Левенберга-Марквардта](https://en.wikipedia.org/wiki/Levenberg%E2%80%93Marquardt_algorithm) приведен в этом [repo](https://github.com/jswanglp/Levenberg-Marquardt-algorithm/blob/master/README.pdf)
+    + ##### Градиентный спуск (Gradient descent) ([code](codes/Linear_models/linear_regression_RU.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/linear_regression_RU.ipynb)) Другой пример сравнения между [алгоритмом градиентного спуска](https://en.wikipedia.org/wiki/Gradient_descent) и [алгоритмом Левенберга-Марквардта](https://en.wikipedia.org/wiki/Levenberg%E2%80%93Marquardt_algorithm) приведен в этом [repo](https://github.com/jswanglp/Levenberg-Marquardt-algorithm/blob/master/README.pdf).
     + ##### Метод регуляризации Тихонова (Ridge regression) ([code](codes/Linear_models/RR_RU.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/RR_RU.ipynb)) ([kaggle-kernel](https://www.kaggle.com/jswanglp/ridge-regression))
+    + ##### Метод спуска с учителем (Supervised Descent Method, SDM) ([code]()) ([notebook-in-colab]()) Хотя это не относится к линейной модели, но идеальные параметры в этом примере найдены методом регуляризации Тихонова.
 - ##### Логистическая регрессия (Logistic regression) ([code](codes/Linear_models/logistic_regression_RU.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/logistic_regression_RU.ipynb))
 
 #### Классические модели (Classic models)
