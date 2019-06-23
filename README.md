@@ -3,7 +3,11 @@
 > 温故而知新，可以为师矣<a href='#fn1' name='fn1b'><sup>[1]</sup></a>。
 - [русско-английский](README_RU.md)
 
-花了一个多月把之前写的一些关于机器学习、深度学习的模型都重新编译并且跑了一遍，渣渣电脑，幸好有Google的羊毛可以薅，省出很多时间可以把代码的注释翻译成[俄语版本](README_RU.md)，总算快完工了🤣，可以投入新的战场了😊。
+花了一个多月把之前写的一些关于机器学习、深度学习的模型都重新编译并且跑了一遍，渣渣电脑，幸好有Google的羊毛可以薅，省出很多时间可以把代码的注释翻译成[俄语版本](README_RU.md)，总算快完工了🤣，可以投入新的战场了😊。  
+其它一些有用的 `repo`:  
+
+- ##### [梯度下降和 LM 算法](https://github.com/jswanglp/Levenberg-Marquardt-algorithm) 
+- ##### [神经网络与小波神经网络](https://github.com/jswanglp/NN_and_WNN)
 
 ## 机器学习 (Machine learning)
 
