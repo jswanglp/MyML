@@ -5,9 +5,6 @@
 Мне потребовалось больше месяца, чтобы перекомпилировать и запустить некоторые из кодов моделей, которые я написал о машинном обучении и глубоком обучении. Видеокарта моего компьютера слишком плохая, к счастью, Google предоставляет нам GPU бесплатно. Это экономит много времени, и я могу перевести комментарии кодов на [русский язык](README_RU.md). Этот репозиторий почти закончен🤣, и пришло время готовиться к новому полю боя😊.  
 Некоторые другие полезные репозитории:  
 
-- ##### [Градиентный спуск и алгоритмом Левенберга-Марквардта](https://github.com/jswanglp/Levenberg-Marquardt-algorithm) 
-- ##### [Искусственные нейронные сети  и Вейвлет нейронные сети](https://github.com/jswanglp/NN_and_WNN)
-
 ## Машинное обучение (Machine learning)
 
 #### Линейные модели (Linear models)
@@ -18,7 +15,6 @@
 - ##### Логистическая регрессия (Logistic regression) ([code](codes/Linear_models/logistic_regression_RU.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/logistic_regression_RU.ipynb))
 
 #### Классические модели (Classic models)
-
 - ##### Метод главных компонент (Principal Component Analysis, PCA) ([code](codes/Classic_models/PCA_RU.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/PCA_RU.ipynb))
 - ##### Метод k-ближайших соседей (k-nearest neighbors algorithm, k-NN) ([code](codes/Classic_models/KNN_main_RU.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/KNN_RU.ipynb))
 - ##### Дерево принятия решений (Decision tree) ([code](codes/Classic_models/Decision_tree_RU.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/Decision_tree_RU.ipynb)) ([kaggle-kernel](https://www.kaggle.com/jswanglp/decision-tree))
@@ -59,12 +55,13 @@
 - ##### Применение VGG сетей в задаче классификации изображений (Application of VGG networks in image classification task) ([code](codes/Others/VGG16_RU.py)) ([notebook-in-colab](notebooks(colab)/Others/VGG16_RU.ipynb))
 
 #### Полезные учебные пособия (Useful tutorials)
-
 - ##### [TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples) Учебное пособие по TensorFlow для начинающих
 - ##### [TensorFlow-Course](https://github.com/machinelearningmindset/TensorFlow-Course) Другое простое учебное пособие, которое включает в себя `code` и ` jupyter notebook`
 - ##### [Statistical-learning-method](https://github.com/wzyonggege/statistical-learning-method) Реализация некоторых статистических моделей при использовании `Python`
 - ##### [TensorFlow Datasets](https://github.com/tensorflow/datasets) Учебное пособие TensorFlow Datasets
 - ##### [Tensorboard](https://github.com/tensorflow/tensorboard) Использование инструмента визуализации TensorFlow Tensorboard
+- ##### [Levenberg-Marquardt-algorithm](https://github.com/jswanglp/Levenberg-Marquardt-algorithm) Сравнение градиентного спуска и алгоритма Левенберга-Марквардта
+- ##### [NN_and_WNN](https://github.com/jswanglp/NN_and_WNN) Реализация нейронных сетей и вейвлет нейронных сетей с помощью метода обратного распространения ошибки
 
 -----
 **Сноска (Footnote)**

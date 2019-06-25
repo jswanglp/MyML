@@ -4,10 +4,6 @@
 - [русско-английский](README_RU.md)
 
 花了一个多月把之前写的一些关于机器学习、深度学习的模型都重新编译并且跑了一遍，渣渣电脑，幸好有Google的羊毛可以薅，省出很多时间可以把代码的注释翻译成[俄语版本](README_RU.md)，总算快完工了🤣，可以投入新的战场了😊。  
-其它一些有用的 `repo`:  
-
-- ##### [梯度下降和 LM 算法](https://github.com/jswanglp/Levenberg-Marquardt-algorithm) 
-- ##### [神经网络与小波神经网络](https://github.com/jswanglp/NN_and_WNN)
 
 ## 机器学习 (Machine learning)
 
@@ -19,7 +15,6 @@
 - ##### 逻辑回归 (Logistic regression) ([code](codes/Linear_models/logistic_regression.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/logistic_regression.ipynb))
 
 #### 几种经典模型 (Classic models)
-
 - ##### 主成分分析 (Principal Component Analysis, PCA) ([code](codes/Classic_models/PCA.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/PCA.ipynb))
 - ##### K-近邻算法 (k-nearest neighbors algorithm, k-NN) ([code](codes/Classic_models/KNN_main.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/KNN.ipynb))
 - ##### 决策树 (Decision tree) ([code](codes/Classic_models/Decision_tree.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/Decision_tree.ipynb)) ([kaggle-kernel](https://www.kaggle.com/jswanglp/decision-tree))
@@ -60,12 +55,13 @@
 - ##### VGG 网络在图像分类任务中的应用 (Application of VGG networks in image classification task) ([code](codes/Others/VGG16.py)) ([notebook-in-colab](notebooks(colab)/Others/VGG16.ipynb))
 
 #### 有用的教程 (Useful tutorials)
-
 - ##### [TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples) 适用于初学者的 TensorFlow 教程
 - ##### [TensorFlow-Course](https://github.com/machinelearningmindset/TensorFlow-Course) 另一个简易教程，包含 `code` 与 ` jupyter notebook`
 - ##### [Statistical-learning-method](https://github.com/wzyonggege/statistical-learning-method) 通过 `Python` 实现的一些统计学模型
 - ##### [TensorFlow Datasets](https://github.com/tensorflow/datasets) TensorFlow 中数据集类的使用
 - ##### [Tensorboard](https://github.com/tensorflow/tensorboard) TensorFlow 可视化工具 Tensorboard 的使用
+- ##### [Levenberg-Marquardt-algorithm](https://github.com/jswanglp/Levenberg-Marquardt-algorithm) 梯度下降和 LM 算法的比较
+- ##### [NN_and_WNN](https://github.com/jswanglp/NN_and_WNN) 反向传播算法实现神经网络与小波神经网络
 
 -----
 **脚注 (Footnote)**
