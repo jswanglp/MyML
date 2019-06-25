@@ -8,6 +8,7 @@
 ## 机器学习 (Machine learning)
 
 #### 线性模型 (Linear models)
+
 - ##### 线性回归 (Linear regression)
     + ##### 梯度下降 (Gradient descent) ([code](codes/Linear_models/linear_regression.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/linear_regression.ipynb)) 一个关于[梯度下降](https://en.wikipedia.org/wiki/Gradient_descent)与 [Levenberg–Marquardt 算法](https://en.wikipedia.org/wiki/Levenberg%E2%80%93Marquardt_algorithm)比较的例子在这个 [repo](https://github.com/jswanglp/Levenberg-Marquardt-algorithm/blob/master/README.pdf)。
     + ##### 岭回归 (Ridge regression) ([code](codes/Linear_models/RR.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/RR.ipynb)) ([kaggle-kernel](https://www.kaggle.com/jswanglp/ridge-regression))
@@ -15,6 +16,7 @@
 - ##### 逻辑回归 (Logistic regression) ([code](codes/Linear_models/logistic_regression.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/logistic_regression.ipynb))
 
 #### 几种经典模型 (Classic models)
+
 - ##### 主成分分析 (Principal Component Analysis, PCA) ([code](codes/Classic_models/PCA.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/PCA.ipynb))
 - ##### K-近邻算法 (k-nearest neighbors algorithm, k-NN) ([code](codes/Classic_models/KNN_main.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/KNN.ipynb))
 - ##### 决策树 (Decision tree) ([code](codes/Classic_models/Decision_tree.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/Decision_tree.ipynb)) ([kaggle-kernel](https://www.kaggle.com/jswanglp/decision-tree))
@@ -33,6 +35,7 @@
     + ##### AdaBoost 算法 (Adaptive Boosting, AdaBoost) ([code](codes/Classic_models/Adaboost_main.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/Adaboost.ipynb)) ([kaggle-kernel](https://www.kaggle.com/jswanglp/adaboost))
 
 #### 神经网络模型 (Neural network models)
+
 - ##### 监督学习模型 (Supervised learning models)
     + ##### 曲线拟合 (Curve fitting) ([code](codes/Neural_network_models/Supervised_learning_models/curve_fitting.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/curve_fitting.ipynb)) ([kaggle-kernel](https://www.kaggle.com/jswanglp/curve-fitting))
     + ##### 多层感知机 (Multilayer Perceptron, MLP) ([code](codes/Neural_network_models/Supervised_learning_models/MLP.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/MLP.ipynb))
@@ -43,18 +46,20 @@
     + ##### 批量归一化 (Batch Normalization, BN) ([code](codes/Neural_network_models/Supervised_learning_models/Facial_recognition_bn.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/Facial_recognition_bn.ipynb))
     + ##### 小波神经网络 (Wavelet Neural Network, WNN) ([code](codes/Neural_network_models/Supervised_learning_models/WNN.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/WNN.ipynb))
 - ##### 非监督学习模型 (Unsupervised learning models)
-    + ##### 自编码器 (Autoencoder, AE) ([code](codes/Neural_network_models/Unsupervised_learning_models/AE.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/AE.ipynb))
+    + ##### 自编码器 (Autoencoder, AE) ([code](codes/Neural_network_models/Unsupervised_learning_models/AE.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/AE.ipynb)) ([kaggle-kernel](https://www.kaggle.com/jswanglp/autoencoder))
     + ##### 变分自编码器 (Variational autoencoder, VAE) ([code](codes/Neural_network_models/Unsupervised_learning_models/VAE.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/VAE.ipynb))
     + ##### 生成对抗网络 (Generative Adversarial Networks, GAN) ([code](codes/Neural_network_models/Unsupervised_learning_models/GAN.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/GAN.ipynb)) ([kaggle-kernel](https://www.kaggle.com/jswanglp/gan-tf))
     + ##### 深度卷积生成对抗网络 (mnist) (Deep Convolutional Generative Adversarial Networks, DCGAN) ([code](codes/Neural_network_models/Unsupervised_learning_models/DCGAN.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/DCGAN.ipynb))
     + ##### 深度卷积生成对抗网络 (FaceWarehouse) (Deep Convolutional Generative Adversarial Networks, DCGAN) ([code](codes/Neural_network_models/Unsupervised_learning_models/DCGAN_for_faces.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/DCGAN_for_faces.ipynb))
 
 #### 其它 (Others)
+
 - ##### Tensorboard 的使用 (Tensorboard tutorials) ([code](codes/Others/tensorboard_tutorials.py)) ([notebook-in-colab](notebooks(colab)/Others/tensorboard_tutorials.ipynb))
 - ##### TensorFlow Dataset 类的使用 (TensorFlow Dataset class tutorials) ([code](codes/Others/Dataset_tutorials.py)) ([notebook-in-colab](notebooks(colab)/Others/Dataset_tutorials.ipynb))
 - ##### VGG 网络在图像分类任务中的应用 (Application of VGG networks in image classification task) ([code](codes/Others/VGG16.py)) ([notebook-in-colab](notebooks(colab)/Others/VGG16.ipynb))
 
 #### 有用的教程 (Useful tutorials)
+
 - ##### [TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples) 适用于初学者的 TensorFlow 教程
 - ##### [TensorFlow-Course](https://github.com/machinelearningmindset/TensorFlow-Course) 另一个简易教程，包含 `code` 与 ` jupyter notebook`
 - ##### [Statistical-learning-method](https://github.com/wzyonggege/statistical-learning-method) 通过 `Python` 实现的一些统计学模型

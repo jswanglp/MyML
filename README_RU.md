@@ -8,6 +8,7 @@
 ## Машинное обучение (Machine learning)
 
 #### Линейные модели (Linear models)
+
 - ##### Линейная регрессия (Linear regression)
     + ##### Градиентный спуск (Gradient descent) ([code](codes/Linear_models/linear_regression_RU.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/linear_regression_RU.ipynb)) Другой пример сравнения между [алгоритмом градиентного спуска](https://en.wikipedia.org/wiki/Gradient_descent) и [алгоритмом Левенберга-Марквардта](https://en.wikipedia.org/wiki/Levenberg%E2%80%93Marquardt_algorithm) приведен в этом [repo](https://github.com/jswanglp/Levenberg-Marquardt-algorithm/blob/master/README.pdf).
     + ##### Метод регуляризации Тихонова (Ridge regression) ([code](codes/Linear_models/RR_RU.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/RR_RU.ipynb)) ([kaggle-kernel](https://www.kaggle.com/jswanglp/ridge-regression))
@@ -15,6 +16,7 @@
 - ##### Логистическая регрессия (Logistic regression) ([code](codes/Linear_models/logistic_regression_RU.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/logistic_regression_RU.ipynb))
 
 #### Классические модели (Classic models)
+
 - ##### Метод главных компонент (Principal Component Analysis, PCA) ([code](codes/Classic_models/PCA_RU.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/PCA_RU.ipynb))
 - ##### Метод k-ближайших соседей (k-nearest neighbors algorithm, k-NN) ([code](codes/Classic_models/KNN_main_RU.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/KNN_RU.ipynb))
 - ##### Дерево принятия решений (Decision tree) ([code](codes/Classic_models/Decision_tree_RU.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/Decision_tree_RU.ipynb)) ([kaggle-kernel](https://www.kaggle.com/jswanglp/decision-tree))
@@ -33,6 +35,7 @@
     + ##### Алгоритм AdaBoost (Adaptive Boosting, AdaBoost) ([code](codes/Classic_models/Adaboost_main_RU.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/Adaboost_RU.ipynb)) ([kaggle-kernel](https://www.kaggle.com/jswanglp/adaboost))
 
 #### Модели нейронных сетей (Neural network models)
+
 - ##### Модели обучения с учителем (Supervised learning models)
     + ##### Приближение с помощью кривых (Curve fitting) ([code](codes/Neural_network_models/Supervised_learning_models/curve_fitting_RU.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/curve_fitting_RU.ipynb)) ([kaggle-kernel](https://www.kaggle.com/jswanglp/curve-fitting))
     + ##### Многослойный персептрон (Multilayer Perceptron, MLP) ([code](codes/Neural_network_models/Supervised_learning_models/MLP_RU.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/MLP_RU.ipynb))
@@ -43,18 +46,20 @@
     + ##### Батч-нормализация (Batch Normalization, BN) ([code](codes/Neural_network_models/Supervised_learning_models/Facial_recognition_bn_RU.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/Facial_recognition_bn_RU.ipynb))
     + ##### Вейвлет нейронные сети (Wavelet Neural Network, WNN) ([code](codes/Neural_network_models/Supervised_learning_models/WNN_RU.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/WNN_RU.ipynb))
 - ##### Модели обучения без учителя (Unsupervised learning models)
-    + ##### Автокодировщик (Autoencoder, AE) ([code](codes/Neural_network_models/Unsupervised_learning_models/AE_RU.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/AE_RU.ipynb))
+    + ##### Автокодировщик (Autoencoder, AE) ([code](codes/Neural_network_models/Unsupervised_learning_models/AE_RU.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/AE_RU.ipynb)) ([kaggle-kernel](https://www.kaggle.com/jswanglp/autoencoder))
     + ##### Вариационный автокодировщик (Variational autoencoder, VAE) ([code](codes/Neural_network_models/Unsupervised_learning_models/VAE_RU.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/VAE_RU.ipynb))
     + ##### Генеративно-состязательные сети (Generative Adversarial Networks, GAN) ([code](codes/Neural_network_models/Unsupervised_learning_models/GAN_RU.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/GAN_RU.ipynb)) ([kaggle-kernel](https://www.kaggle.com/jswanglp/gan-tf))
     + ##### Глубокие сверточные генеративно-состязательные сети (mnist) (Deep Convolutional Generative Adversarial Networks, DCGAN) ([code](codes/Neural_network_models/Unsupervised_learning_models/DCGAN_RU.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/DCGAN_RU.ipynb))
     + ##### Глубокие сверточные генеративно-состязательные сети (FaceWarehouse) (Deep Convolutional Generative Adversarial Networks, DCGAN) ([code](codes/Neural_network_models/Unsupervised_learning_models/DCGAN_for_faces_RU.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/DCGAN_for_faces_RU.ipynb))
 
 #### Другие (Others)
+
 - ##### Учебные пособия tensorboard (Tensorboard tutorials) ([code](codes/Others/tensorboard_tutorials_RU.py)) ([notebook-in-colab](notebooks(colab)/Others/tensorboard_tutorials_RU.ipynb))
 - ##### Учебные пособия TensorFlow Dataset class (TensorFlow Dataset class tutorials) ([code](codes/Others/Dataset_tutorials_RU.py)) ([notebook-in-colab](notebooks(colab)/Others/Dataset_tutorials_RU.ipynb))
 - ##### Применение VGG сетей в задаче классификации изображений (Application of VGG networks in image classification task) ([code](codes/Others/VGG16_RU.py)) ([notebook-in-colab](notebooks(colab)/Others/VGG16_RU.ipynb))
 
 #### Полезные учебные пособия (Useful tutorials)
+
 - ##### [TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples) Учебное пособие по TensorFlow для начинающих
 - ##### [TensorFlow-Course](https://github.com/machinelearningmindset/TensorFlow-Course) Другое простое учебное пособие, которое включает в себя `code` и ` jupyter notebook`
 - ##### [Statistical-learning-method](https://github.com/wzyonggege/statistical-learning-method) Реализация некоторых статистических моделей при использовании `Python`
