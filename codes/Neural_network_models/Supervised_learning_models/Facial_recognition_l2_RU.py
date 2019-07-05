@@ -143,13 +143,14 @@ if __name__ == '__main__':
             h_fc2_drop = tf.nn.dropout(h_fc2, keep_prob)
 
         with tf.name_scope('OutPut_layer'):
-            W_fc3 = weight_variable([1024, 150], name='w_fc2')
-            b_fc3 = bias_variable([150], name='b_fc2')
+            W_fc3 = weight_variable([1024, 150], name='w_fc3')
+            b_fc3 = bias_variable([150], name='b_fc3')
             y_conv = tf.matmul(h_fc2_drop, W_fc3) + b_fc3
             
     # ---------------------regularization_L2----------------
         tf.add_to_collection(tf.GraphKeys.WEIGHTS, W_fc1)
         tf.add_to_collection(tf.GraphKeys.WEIGHTS, W_fc2)
+        # tf.add_to_collection(tf.GraphKeys.WEIGHTS, W_fc3)
         regularizer = tf.contrib.layers.l2_regularizer(scale=15./1500)
         reg_tem = tf.contrib.layers.apply_regularization(regularizer)
         
