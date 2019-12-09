@@ -3,7 +3,6 @@
 - [中英文](README.md)
 
 Мне потребовалось больше месяца, чтобы перекомпилировать и запустить некоторые из кодов моделей, которые я написал о машинном обучении и глубоком обучении. Видеокарта моего компьютера слишком плохая, к счастью, Google предоставляет нам GPU бесплатно. Это экономит много времени, и я могу перевести комментарии кодов на [русский язык](README_RU.md). Этот репозиторий почти закончен🤣, и пришло время готовиться к новому полю боя😊.  
-Некоторые другие полезные репозитории:  
 
 ## Машинное обучение (Machine learning)
 
@@ -24,6 +23,7 @@
     + ##### Снижение с помощью ИНС (Dimensionality reduction with NN) ([code](codes/Classic_models/linear_SVM_RU.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/linear_SVM_RU.ipynb))
     + ##### Снижение с помощью СНС (Dimensionality reduction with CNN) ([code](codes/Classic_models/linear_SVM(CNN)_RU.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/linear_SVM(CNN)_RU.ipynb))
 - ##### Графовая вероятностная модель (Probabilistic Graphical Model, PGM)
+    
     + ##### Наивный байесовский классификатор (Naive Bayes classifier) ([code](codes/Classic_models/NB_RU.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/NB_RU.ipynb))
     + ##### Скрытая марковская модель  (Hidden Markov Model, HMM) ([code](codes/Classic_models/HMM_RU.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/HMM_RU.ipynb)) ([kaggle-kernel](https://www.kaggle.com/jswanglp/hmm-gaussian))
     + ##### EM-алгоритм (Expectation Maximization algorithm, EM) ([code](codes/Classic_models/EM_RU.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/EM_RU.ipynb))
