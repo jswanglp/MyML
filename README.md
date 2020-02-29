@@ -17,7 +17,7 @@
 - ##### 逻辑回归 (Logistic regression) ([code](codes/Linear_models/logistic_regression.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/logistic_regression.ipynb))
 
 - ##### 线性支持向量机 (Linear Support Vector Machines, Linear SVM)
-    
+  
     + ##### NN 降维 (Dimensionality reduction with NN) ([code](codes/Linear_models/linear_SVM.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/linear_SVM.ipynb))
     + ##### CNN 降维 (Dimensionality reduction with CNN) ([code](codes/Linear_models/linear_SVM(CNN).py)) ([notebook-in-colab](notebooks(colab)/Linear_models/linear_SVM(CNN).ipynb))
 
@@ -84,6 +84,8 @@
 - ##### [Levenberg-Marquardt-algorithm](https://github.com/jswanglp/Levenberg-Marquardt-algorithm) 梯度下降和 LM 算法的比较
 
 - ##### [NN_and_WNN](https://github.com/jswanglp/NN_and_WNN) 反向传播算法实现神经网络与小波神经网络
+
+- ##### [Fishing Vessel IDentification (FVID)](https://github.com/jswanglp/FVID) 通过神经网络及小波神经网络实现对渔船作业方式的识别
 
 -----
 **脚注 (Footnote)**
