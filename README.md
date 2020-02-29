@@ -13,23 +13,30 @@
     + ##### 梯度下降 (Gradient descent) ([code](codes/Linear_models/linear_regression.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/linear_regression.ipynb)) 一个关于[梯度下降](https://en.wikipedia.org/wiki/Gradient_descent)与 [Levenberg–Marquardt 算法](https://en.wikipedia.org/wiki/Levenberg%E2%80%93Marquardt_algorithm)比较的例子在这个 [repo](https://github.com/jswanglp/Levenberg-Marquardt-algorithm/blob/master/README.pdf)。
     + ##### 岭回归 (Ridge regression) ([code](codes/Linear_models/RR.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/RR.ipynb)) ([kaggle-kernel](https://www.kaggle.com/jswanglp/ridge-regression))
     + ##### 监督下降法 (Supervised Descent Method, SDM) ([code](codes/Linear_models/SDM.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/SDM.ipynb)) 虽不属于线性模型，但例子中的最优参数是通过岭回归找到的。
+
 - ##### 逻辑回归 (Logistic regression) ([code](codes/Linear_models/logistic_regression.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/logistic_regression.ipynb))
+
+- ##### 线性支持向量机 (Linear Support Vector Machines, Linear SVM)
+    + ##### NN 降维 (Dimensionality reduction with NN) ([code](codes/Classic_models/linear_SVM.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/linear_SVM.ipynb))
+    + ##### CNN 降维 (Dimensionality reduction with CNN) ([code](codes/Classic_models/linear_SVM(CNN).py)) ([notebook-in-colab](notebooks(colab)/Classic_models/linear_SVM(CNN).ipynb))
 
 #### 几种经典模型 (Classic models)
 
 - ##### 主成分分析 (Principal Component Analysis, PCA) ([code](codes/Classic_models/PCA.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/PCA.ipynb))
+
 - ##### K-近邻算法 (k-nearest neighbors algorithm, k-NN) ([code](codes/Classic_models/KNN_main.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/KNN.ipynb))
+
 - ##### 决策树 (Decision tree) ([code](codes/Classic_models/Decision_tree.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/Decision_tree.ipynb)) ([kaggle-kernel](https://www.kaggle.com/jswanglp/decision-tree))
-- ##### 支持向量机模型 (Support Vector Machines, SVM)
-    + ##### NN 降维 (Dimensionality reduction with NN) ([code](codes/Classic_models/linear_SVM.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/linear_SVM.ipynb))
-    + ##### CNN 降维 (Dimensionality reduction with CNN) ([code](codes/Classic_models/linear_SVM(CNN).py)) ([notebook-in-colab](notebooks(colab)/Classic_models/linear_SVM(CNN).ipynb))
+
 - ##### 概率图模型 (Probabilistic Graphical Model, PGM)
     + ##### 朴素贝叶斯分类器 (Naive Bayes classifier) ([code](codes/Classic_models/NB.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/NB.ipynb))
     + ##### 隐马尔科夫模型 (Hidden Markov Model, HMM) ([code](codes/Classic_models/HMM.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/HMM.ipynb)) ([kaggle-kernel](https://www.kaggle.com/jswanglp/hmm-gaussian))
     + ##### 最大期望算法 (Expectation Maximization algorithm, EM) ([code](codes/Classic_models/EM.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/EM.ipynb))
     + ##### 混合高斯模型 (Gaussian mixture model, GMM) ([code](codes/Classic_models/GMM.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/GMM.ipynb))
+
 - ##### 聚类 (Clustering)
     + ##### k-means 聚类 (k-means clustering, k-means) ([code](codes/Classic_models/kmeans.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/kmeans.ipynb))
+
 - ##### 集成学习 (Ensemble learning)
     + ##### 随机森林 (Random Forest, RF) ([code](codes/Classic_models/RF.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/RF.ipynb))
     + ##### AdaBoost 算法 (Adaptive Boosting, AdaBoost) ([code](codes/Classic_models/Adaboost_main.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/Adaboost.ipynb)) ([kaggle-kernel](https://www.kaggle.com/jswanglp/adaboost))
@@ -45,6 +52,7 @@
     + ##### 正则化 (Regularization) ([code](codes/Neural_network_models/Supervised_learning_models/Facial_recognition_l2.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/Facial_recognition_l2.ipynb))
     + ##### 批量归一化 (Batch Normalization, BN) ([code](codes/Neural_network_models/Supervised_learning_models/Facial_recognition_bn.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/Facial_recognition_bn.ipynb))
     + ##### 小波神经网络 (Wavelet Neural Network, WNN) ([code](codes/Neural_network_models/Supervised_learning_models/WNN.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Supervised_learning_models/WNN.ipynb))
+
 - ##### 非监督学习模型 (Unsupervised learning models)
     + ##### 自编码器 (Autoencoder, AE) ([code](codes/Neural_network_models/Unsupervised_learning_models/AE.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/AE.ipynb)) ([kaggle-kernel](https://www.kaggle.com/jswanglp/autoencoder))
     + ##### 变分自编码器 (Variational autoencoder, VAE) ([code](codes/Neural_network_models/Unsupervised_learning_models/VAE.py)) ([notebook-in-colab](notebooks(colab)/Neural_network_models/Unsupervised_learning_models/VAE.ipynb))
@@ -55,17 +63,25 @@
 #### 其它 (Others)
 
 - ##### Tensorboard 的使用 (Tensorboard tutorials) ([code](codes/Others/tensorboard_tutorials.py)) ([notebook-in-colab](notebooks(colab)/Others/tensorboard_tutorials.ipynb))
+
 - ##### TensorFlow Dataset 类的使用 (TensorFlow Dataset class tutorials) ([code](codes/Others/Dataset_tutorials.py)) ([notebook-in-colab](notebooks(colab)/Others/Dataset_tutorials.ipynb))
+
 - ##### VGG 网络在图像分类任务中的应用 (Application of VGG networks in image classification task) ([code](codes/Others/VGG16.py)) ([notebook-in-colab](notebooks(colab)/Others/VGG16.ipynb))
 
 #### 有用的教程 (Useful tutorials)
 
 - ##### [TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples) 适用于初学者的 TensorFlow 教程
+
 - ##### [TensorFlow-Course](https://github.com/machinelearningmindset/TensorFlow-Course) 另一个简易教程，包含 `code` 与 ` jupyter notebook`
+
 - ##### [Statistical-learning-method](https://github.com/wzyonggege/statistical-learning-method) 通过 `Python` 实现的一些统计学模型
+
 - ##### [TensorFlow Datasets](https://github.com/tensorflow/datasets) TensorFlow 中数据集类的使用
+
 - ##### [Tensorboard](https://github.com/tensorflow/tensorboard) TensorFlow 可视化工具 Tensorboard 的使用
+
 - ##### [Levenberg-Marquardt-algorithm](https://github.com/jswanglp/Levenberg-Marquardt-algorithm) 梯度下降和 LM 算法的比较
+
 - ##### [NN_and_WNN](https://github.com/jswanglp/NN_and_WNN) 反向传播算法实现神经网络与小波神经网络
 
 -----
