@@ -17,8 +17,8 @@
 - ##### 逻辑回归 (Logistic regression) ([code](codes/Linear_models/logistic_regression.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/logistic_regression.ipynb))
 
 - ##### 线性支持向量机 (Linear Support Vector Machines, Linear SVM)
-    + ##### NN 降维 (Dimensionality reduction with NN) ([code](codes/Classic_models/linear_SVM.py)) ([notebook-in-colab](notebooks(colab)/Classic_models/linear_SVM.ipynb))
-    + ##### CNN 降维 (Dimensionality reduction with CNN) ([code](codes/Classic_models/linear_SVM(CNN).py)) ([notebook-in-colab](notebooks(colab)/Classic_models/linear_SVM(CNN).ipynb))
+    + ##### NN 降维 (Dimensionality reduction with NN) ([code](codes/Linear_models/linear_SVM.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/linear_SVM.ipynb))
+    + ##### CNN 降维 (Dimensionality reduction with CNN) ([code](codes/Linear_models/linear_SVM(CNN).py)) ([notebook-in-colab](notebooks(colab)/Linear_models/linear_SVM(CNN).ipynb))
 
 #### 几种经典模型 (Classic models)
 
