@@ -84,7 +84,7 @@
 
 - ##### [NN_and_WNN](https://github.com/jswanglp/NN_and_WNN) Реализация нейронных сетей и вейвлет нейронных сетей с помощью метода обратного распространения ошибки
 
-- ##### [Fishing Vessel IDentification (FVID)](https://github.com/jswanglp/FVID) Распознавание типов рыбацких лодок с помощью нейронных сетей и вейвлет-нейронных сетей
+- ##### [Fishing Vessel IDentification (FVID)](https://github.com/jswanglp/FVID) Идентификация типов рыболовных судов с помощью нейронных сетей и вейвлет-нейронных сетей
 
 -----
 **Сноска (Footnote)**
