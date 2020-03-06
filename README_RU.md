@@ -15,6 +15,8 @@
 
 - ##### Логистическая регрессия (Logistic regression) ([code](codes/Linear_models/logistic_regression_RU.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/logistic_regression_RU.ipynb))
 
+- ##### Мультиномиальная логистическая регрессия (Multinomial logistic regression, Softmax regression)
+
 - ##### Линейный метод опорных векторов (Linear Support Vector Machines, Linear SVM)
   
     + ##### Снижение с помощью ИНС (Dimensionality reduction with NN) ([code](codes/Linear_models/linear_SVM_RU.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/linear_SVM_RU.ipynb))
