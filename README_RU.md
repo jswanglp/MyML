@@ -86,6 +86,8 @@
 
 - ##### [Fishing Vessel IDentification (FVID)](https://github.com/jswanglp/FVID) Идентификация типов рыболовных судов с помощью нейронных сетей и вейвлет-нейронных сетей
 
+- ##### [Autoencoder-for-clustering](https://github.com/jswanglp/Autoencoder-for-clustering) Кластеризация 0, 1 изображения в базе данных MNIST с помощью автокодировщика и метода к-средних
+
 -----
 **Сноска (Footnote)**
 

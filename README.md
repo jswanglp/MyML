@@ -87,6 +87,8 @@
 
 - ##### [Fishing Vessel IDentification (FVID)](https://github.com/jswanglp/FVID) 通过神经网络及小波神经网络实现对渔船作业方式的识别
 
+- ##### [Autoencoder-for-clustering](https://github.com/jswanglp/Autoencoder-for-clustering) 通过自编码器与 k-means 算法实现对 MNIST 数据集中 0, 1 图像的聚类
+
 -----
 **脚注 (Footnote)**
 
