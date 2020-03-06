@@ -69,6 +69,16 @@
 
 - ##### VGG 网络在图像分类任务中的应用 (Application of VGG networks in image classification task) ([code](codes/Others/VGG16.py)) ([notebook-in-colab](notebooks(colab)/Others/VGG16.ipynb))
 
+#### 我的一些其他 repo (Some of my other repositories)
+
+- ##### [Levenberg-Marquardt-algorithm](https://github.com/jswanglp/Levenberg-Marquardt-algorithm) 梯度下降和 LM 算法的比较
+
+- ##### [NN_and_WNN](https://github.com/jswanglp/NN_and_WNN) 反向传播算法实现神经网络与小波神经网络
+
+- ##### [Fishing Vessel IDentification (FVID)](https://github.com/jswanglp/FVID) 通过神经网络及小波神经网络实现对渔船作业方式的识别
+
+- ##### [Autoencoder-for-clustering](https://github.com/jswanglp/Autoencoder-for-clustering) 通过自编码器与 k-means 算法实现对 MNIST 数据集中 0, 1 图像的聚类
+
 #### 有用的教程 (Useful tutorials)
 
 - ##### [TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples) 适用于初学者的 TensorFlow 教程
@@ -80,14 +90,6 @@
 - ##### [TensorFlow Datasets](https://github.com/tensorflow/datasets) TensorFlow 中数据集类的使用
 
 - ##### [Tensorboard](https://github.com/tensorflow/tensorboard) TensorFlow 可视化工具 Tensorboard 的使用
-
-- ##### [Levenberg-Marquardt-algorithm](https://github.com/jswanglp/Levenberg-Marquardt-algorithm) 梯度下降和 LM 算法的比较
-
-- ##### [NN_and_WNN](https://github.com/jswanglp/NN_and_WNN) 反向传播算法实现神经网络与小波神经网络
-
-- ##### [Fishing Vessel IDentification (FVID)](https://github.com/jswanglp/FVID) 通过神经网络及小波神经网络实现对渔船作业方式的识别
-
-- ##### [Autoencoder-for-clustering](https://github.com/jswanglp/Autoencoder-for-clustering) 通过自编码器与 k-means 算法实现对 MNIST 数据集中 0, 1 图像的聚类
 
 -----
 **脚注 (Footnote)**

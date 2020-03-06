@@ -68,6 +68,16 @@
 
 - ##### Применение VGG сетей в задаче классификации изображений (Application of VGG networks in image classification task) ([code](codes/Others/VGG16_RU.py)) ([notebook-in-colab](notebooks(colab)/Others/VGG16_RU.ipynb))
 
+#### Некоторые из моих других репозиториев (Some of my other repositories)
+
+- ##### [Levenberg-Marquardt-algorithm](https://github.com/jswanglp/Levenberg-Marquardt-algorithm) Сравнение градиентного спуска и алгоритма Левенберга-Марквардта
+
+- ##### [NN_and_WNN](https://github.com/jswanglp/NN_and_WNN) Реализация нейронных сетей и вейвлет нейронных сетей с помощью метода обратного распространения ошибки
+
+- ##### [Fishing Vessel IDentification (FVID)](https://github.com/jswanglp/FVID) Идентификация типов рыболовных судов с помощью нейронных сетей и вейвлет-нейронных сетей
+
+- ##### [Autoencoder-for-clustering](https://github.com/jswanglp/Autoencoder-for-clustering) Кластеризация 0, 1 изображения в базе данных MNIST с помощью автокодировщика и метода к-средних
+
 #### Полезные учебные пособия (Useful tutorials)
 
 - ##### [TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples) Учебное пособие по TensorFlow для начинающих
@@ -79,14 +89,6 @@
 - ##### [TensorFlow Datasets](https://github.com/tensorflow/datasets) Учебное пособие TensorFlow Datasets
 
 - ##### [Tensorboard](https://github.com/tensorflow/tensorboard) Использование инструмента визуализации TensorFlow Tensorboard
-
-- ##### [Levenberg-Marquardt-algorithm](https://github.com/jswanglp/Levenberg-Marquardt-algorithm) Сравнение градиентного спуска и алгоритма Левенберга-Марквардта
-
-- ##### [NN_and_WNN](https://github.com/jswanglp/NN_and_WNN) Реализация нейронных сетей и вейвлет нейронных сетей с помощью метода обратного распространения ошибки
-
-- ##### [Fishing Vessel IDentification (FVID)](https://github.com/jswanglp/FVID) Идентификация типов рыболовных судов с помощью нейронных сетей и вейвлет-нейронных сетей
-
-- ##### [Autoencoder-for-clustering](https://github.com/jswanglp/Autoencoder-for-clustering) Кластеризация 0, 1 изображения в базе данных MNIST с помощью автокодировщика и метода к-средних
 
 -----
 **Сноска (Footnote)**
