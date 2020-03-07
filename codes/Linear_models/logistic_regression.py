@@ -97,7 +97,10 @@ if __name__ == '__main__':
     min_cross = 5e-2
     if not os.path.exists(FLAGS.checkpoints_path):
         os.makedirs(FLAGS.checkpoints_path)
+    if not os.path.exists(FLAGS.events_path):
+        os.makedirs(FLAGS.events_path)
 
+    # 模型的训练
     with tf.Session(graph=graph) as sess:
         sess.run(tf.global_variables_initializer())
         checkpoints_prefix = 'model.ckpt'

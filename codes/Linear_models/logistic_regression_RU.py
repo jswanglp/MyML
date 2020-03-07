@@ -1,21 +1,26 @@
-# В программе реализована логистическая регрессия для классификации двух категорий
-# при использовании одного полносвязанного слоя  нейронных сетей и softmax слоя
+# В программе реализована логистическая регрессия для классификации двух категорий изображений
+# При использовании SGD вам необходимо увеличить значения num_epochs и display_step
 # #@title Real Logistic Reression { display-mode: "both" }
 # coding: utf-8
-import numpy as np
 import os
+import numpy as np
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 
 tf.logging.set_verbosity(tf.logging.ERROR)
 
-
-def extraction_fn(data): # извлечение индексов изображений 0 или 1
+# Извлечение индексов изображений 0 или 1
+def extraction_fn(data): 
     index_list = []
     for idx in range(data.shape[0]):
         if data[idx] == 0 or data[idx] == 1:
             index_list.append(idx)
     return index_list
+
+# Xavier Glorot инициализация 
+def glorot_init(shape, name):
+    initial = tf.truncated_normal(shape, stddev=1. / tf.sqrt(shape[0] / 2.))
+    return tf.Variable(initial, name=name)
 
 if __name__ == '__main__':
 
@@ -30,8 +35,9 @@ if __name__ == '__main__':
     tf.app.flags.DEFINE_integer('num_classes', 2, 'Number of model clones to deploy.')
     tf.app.flags.DEFINE_integer('batchsize', 64, 'Number of batchsize.')
     tf.app.flags.DEFINE_integer('num_epochs', 100, 'Number of epochs for training.')
-
-    tf.app.flags.DEFINE_float('learning_rate', 5e-3, 'Initial learning rate.')
+    tf.app.flags.DEFINE_integer('display_step', 10, 'Display step for showing loss and accuracy.')
+    
+    tf.app.flags.DEFINE_float('learning_rate', 1e-3, 'Initial learning rate.')
     
     # tf.app.flags.DEFINE_boolean('')
 
@@ -40,97 +46,113 @@ if __name__ == '__main__':
     print('The checkpoints_path is ', FLAGS.checkpoints_path)
 
     # Выделение обучающих изображений и соответствующих labels
-    mnist = input_data.read_data_sets("E:\Anaconda\Programs\MNIST_data", reshape=True, one_hot=False)
+    mnist = input_data.read_data_sets("MNIST_data", one_hot=False)
     data = {}
-    data['train_image'] = mnist.train.images
-    data['train_label'] = mnist.train.labels
-    data['test_image'] = mnist.test.images
-    data['test_label'] = mnist.test.labels
 
-    index_list_train = extraction_fn(data['train_label'])
-    index_list_test = extraction_fn(data['test_label'])
+    index_list_train = extraction_fn(mnist.train.labels)
+    index_list_test = extraction_fn(mnist.test.labels)
 
-    data['train_image'] = mnist.train.images[index_list_train]
-    data['train_label'] = mnist.train.labels[index_list_train]
-    data['test_image'] = mnist.test.images[index_list_test]
-    data['test_label'] = mnist.test.labels[index_list_test]
+    data['train_imgs'], data['train_lbs'] = mnist.train.images[index_list_train], mnist.train.labels[index_list_train]
+    data['test_imgs'], data['test_lbs'] = mnist.test.images[index_list_test], mnist.test.labels[index_list_test]
 
-    data['train_image_label'] = np.c_[data['train_image'], data['train_label']]
-    num_samples, num_features = data['train_image'].shape
+    data['train_imgs_lbs'] = np.c_[data['train_imgs'], data['train_lbs']]
+    num_samples, num_features = data['train_imgs'].shape
 
     # Настройка сетей
-    with tf.name_scope('Inputs'):
-        image_place = tf.placeholder(tf.float32, shape=[None, num_features], name='images')
-        image_sum = tf.summary.image('input_images', tf.reshape(image_place, [-1, 28, 28, 1]), max_outputs=3) # представление 3 входных изображения
-        label_place = tf.placeholder(tf.int32, shape=[None,], name='labels')
-        label_one_hot = tf.one_hot(label_place, depth=FLAGS.num_classes, axis=-1)
-    
-    with tf.name_scope('Loss'):
-        logits = tf.contrib.layers.fully_connected(inputs=image_place, num_outputs=FLAGS.num_classes, scope='fc')
-        loss_tensor = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=logits, labels=label_one_hot), name='loss_tensor')
-        loss_sum = tf.summary.scalar('loss_summary', loss_tensor) # summary о loss 
-    
-    with tf.name_scope('Accuracy'):
-        predition = tf.equal(tf.argmax(logits, 1), tf.arg_max(label_one_hot, 1))
-        accuracy = tf.reduce_mean(tf.cast(predition, tf.float32), name='accuracy')
-        acc_sum = tf.summary.scalar('acc_summary', accuracy) # summary о accuracy
+    graph = tf.Graph()
+    with graph.as_default():
+        with tf.name_scope('Main_structure'):
+            with tf.name_scope('Inputs'):
+                image_place = tf.placeholder(tf.float32, shape=[None, num_features], name='images')
+                label_place = tf.placeholder(tf.int32, shape=[None,], name='labels')
+                label_one_hot = tf.one_hot(label_place, depth=FLAGS.num_classes, axis=-1)
 
-    with tf.name_scope('Train'):
-        train_op = tf.train.AdagradOptimizer(FLAGS.learning_rate).minimize(loss_tensor)
+                w = glorot_init([num_features, FLAGS.num_classes], name='weights')
+                b = tf.Variable(tf.constant(0.1, shape=[FLAGS.num_classes]), name='biases')
+                logits = tf.nn.sigmoid(tf.add(tf.matmul(image_place, w), b))
 
-    saver = tf.train.Saver(max_to_keep=FLAGS.max_num_checkpoints)
+            with tf.name_scope('Loss'):
+                # logits = tf.contrib.layers.fully_connected(inputs=image_place, num_outputs=FLAGS.num_classes, scope='fc')
+                # loss_tensor = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=logits, labels=label_one_hot), name='loss_tensor')
+                loss_tensor = -tf.reduce_mean(label_one_hot * tf.log(1e-10 + logits) + (1 - label_one_hot) * tf.log(1e-10 + 1 - logits)) 
+
+            with tf.name_scope('Accuracy'):
+                predition = tf.equal(tf.argmax(logits, 1), tf.arg_max(label_one_hot, 1))
+                accuracy = tf.reduce_mean(tf.cast(predition, tf.float32), name='accuracy')
+
+            with tf.name_scope('Train'):
+                train_op = tf.train.AdagradOptimizer(FLAGS.learning_rate).minimize(loss_tensor)
+                
+        image_sum = tf.summary.image('input_images', tf.reshape(image_place, [-1, 28, 28, 1]), 
+                                    max_outputs=3, collections=['train']) # представление 3 входных изображения
+        loss_sum = tf.summary.scalar('loss_summary', loss_tensor, ['train', 'test'])
+        acc_sum = tf.summary.scalar('acc_summary', accuracy, ['train', 'test'])
+
+        train_summ = tf.summary.merge_all('train')
+        test_summ = tf.summary.merge_all('test')
+
+        saver = tf.train.Saver(max_to_keep=FLAGS.max_num_checkpoints)
+
     max_acc = 99.2 # модели с выше этой точностью будут сохранены
-    min_cross = 0.2
+    min_cross = 5e-2
     if not os.path.exists(FLAGS.checkpoints_path):
         os.makedirs(FLAGS.checkpoints_path)
+    if not os.path.exists(FLAGS.events_path):
+        os.makedirs(FLAGS.events_path)
 
-    with tf.Session() as sess:
+    # Обучение сетей
+    with tf.Session(graph=graph) as sess:
         sess.run(tf.global_variables_initializer())
         checkpoints_prefix = 'model.ckpt'
 
-        writer = tf.summary.FileWriter(FLAGS.events_path, sess.graph)
-        merged = tf.summary.merge([image_sum, loss_sum, acc_sum])
+        train_dir = os.path.join(FLAGS.events_path, 'train')
+        test_dir = os.path.join(FLAGS.events_path, 'test')
+        train_writer = tf.summary.FileWriter(train_dir, sess.graph)
+        test_writer = tf.summary.FileWriter(test_dir, sess.graph)
 
+        # Mini-batch SGD
         for epoch_num in range(FLAGS.num_epochs):
-            # В сегменте используется последовательное извлечение целых обучающих изображений,
-            # у него медленная скорость но меньшее колебание градиента
-            # num_batches = int(num_samples/FLAGS.batchsize)
-            # for batch_num in range(num_batches):
-            #     index_list_start = batch_num*FLAGS.batchsize
-            #     index_list_end = (batch_num+1)*FLAGS.batchsize
-            #     image_batch = data['train_image'][index_list_start:index_list_end,:]
-            #     label_batch = data['train_label'][index_list_start:index_list_end]
-            #     batch_loss, batch_accuracy, _ = sess.run([loss_tensor, accuracy, train_op],
-            #                                             feed_dict={image_place: image_batch, label_place: label_batch})
-            # В сегменте используется стохастическое извлечение обучающих изображений,
-            # у него высокая скорость но сильное колебание градиента
-            #--------------------------------------------------------------------------------------------------------
-            np.random.shuffle(data['train_image_label'])
-            image_batch = data['train_image_label'][:FLAGS.batchsize,:-1]
-            label_batch = data['train_image_label'][:FLAGS.batchsize,-1]
-            #--------------------------------------------------------------------------------------------------------
-
-            batch_loss, batch_accuracy, _ = sess.run([loss_tensor, accuracy, train_op],
-                                                    feed_dict={image_place: image_batch, label_place: label_batch})
-            if (epoch_num + 1) % 5 == 0 or (epoch_num + 1) == 1:
-                batch_accuracy *= 100
-                print("Epoch " + str(epoch_num + 1) + ", Training Loss is " + \
-                      "{:.5f}, ".format(batch_loss) + "batch_accuracy is " + "{:.2f}%".format(batch_accuracy))
-
-            if (batch_loss <= min_cross) & (batch_accuracy > max_acc): # сохранение модели сетей
-                min_cross = batch_loss
-                max_acc = batch_accuracy
-                saver.save(sess, os.path.join(FLAGS.checkpoints_path, checkpoints_prefix), global_step=epoch_num+1)
-                print("Model restored...")
-            rs = sess.run(merged, feed_dict={image_place: image_batch, label_place: label_batch})
-            writer.add_summary(rs, epoch_num)
+            num_batches = num_samples // FLAGS.batchsize
+            np.random.shuffle(data['train_imgs_lbs'])
+            for batch_num in range(num_batches):
+                index_list_start = batch_num * FLAGS.batchsize
+                index_list_end = (batch_num + 1) * FLAGS.batchsize
+                image_batch = data['train_imgs_lbs'][index_list_start:index_list_end, :-1]
+                label_batch = data['train_imgs_lbs'][index_list_start:index_list_end, -1]
+                batch_loss, batch_accuracy, _ = sess.run([loss_tensor, accuracy, train_op],
+                                                        feed_dict={image_place: image_batch, label_place: label_batch})
+            train_loss, train_acc, train_rs = sess.run([loss_tensor, accuracy, train_summ],
+                                                        feed_dict={image_place: data['train_imgs'], label_place: data['train_lbs']})
+        # # SGD
+        # for epoch_num in range(FLAGS.num_epochs):
+        #     img_index = np.random.randint(0, num_samples, 1)[0]
+        #     image_and_label = data['train_imgs_lbs'][img_index]
+        #     image = image_and_label[:-1].reshape([-1, num_features])
+        #     label = np.array(image_and_label[-1]).reshape([1, ])
+        #     _, train_loss, train_acc, train_rs = sess.run([train_op, loss_tensor, accuracy, train_summ],
+        #                                                 feed_dict={image_place: image, label_place: label})
         
-        # точность в данных тестирования
-        test_accuracy = sess.run([accuracy], feed_dict={image_place: data['test_image'],
-                                                        label_place: data['test_label']})
-        test_acc = test_accuracy[0]*100
-        print("Final Test Accuracy is %.2f%%" % test_acc)
-    writer.close()
+            train_writer.add_summary(train_rs, global_step=epoch_num)
+            test_loss, test_acc, test_rs = sess.run([loss_tensor, accuracy, test_summ],
+                                                        feed_dict={image_place: data['test_imgs'], label_place: data['test_lbs']})
+            test_writer.add_summary(test_rs, global_step=epoch_num)
+
+            if (epoch_num + 1) % FLAGS.display_step == 0 or epoch_num == 0:
+                train_acc *= 100
+                test_acc *= 100
+                print("Epoch " + str(epoch_num + 1) + ", Cross_entropy loss is " + \
+                      "{:.5f}, ".format(train_loss) + "accuracy is " + "{:.2f}%".format(train_acc))
+                print("Cross_entropy loss on the whole testing set is " + \
+                      "{:.5f}, ".format(test_loss) + "accuracy is " + "{:.2f}%\n".format(test_acc))
+
+            if (train_loss <= min_cross) & (train_acc > max_acc): # сохранение модели сетей
+                min_cross = train_loss
+                max_acc = train_acc
+                saver.save(sess, os.path.join(FLAGS.checkpoints_path, checkpoints_prefix), global_step=epoch_num+1)
+                print("Model restored...") 
+
+    train_writer.close()
+    test_writer.close()
     sess.close()
 
     # Восстановление сохраненных моделей сети и тестирование новых данных
