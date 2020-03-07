@@ -1,6 +1,6 @@
 # В программе реализована логистическая регрессия для классификации двух категорий изображений
 # При использовании SGD вам необходимо увеличить значения num_epochs и display_step
-# #@title Real Logistic Reression { display-mode: "both" }
+# #@title Real Logistic Regression { display-mode: "both" }
 # coding: utf-8
 import os
 import numpy as np
@@ -123,7 +123,8 @@ if __name__ == '__main__':
                                                         feed_dict={image_place: image_batch, label_place: label_batch})
             train_loss, train_acc, train_rs = sess.run([loss_tensor, accuracy, train_summ],
                                                         feed_dict={image_place: data['train_imgs'], label_place: data['train_lbs']})
-        # # SGD
+                                                        
+        # # SGD -------------------------------------------------------------------------------------------------------------------
         # for epoch_num in range(FLAGS.num_epochs):
         #     img_index = np.random.randint(0, num_samples, 1)[0]
         #     image_and_label = data['train_imgs_lbs'][img_index]
@@ -131,6 +132,7 @@ if __name__ == '__main__':
         #     label = np.array(image_and_label[-1]).reshape([1, ])
         #     _, train_loss, train_acc, train_rs = sess.run([train_op, loss_tensor, accuracy, train_summ],
         #                                                 feed_dict={image_place: image, label_place: label})
+        # # -----------------------------------------------------------------------------------------------------------------------
         
             train_writer.add_summary(train_rs, global_step=epoch_num)
             test_loss, test_acc, test_rs = sess.run([loss_tensor, accuracy, test_summ],
