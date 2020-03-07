@@ -16,7 +16,7 @@
 
 - ##### 逻辑回归 (Logistic regression) ([code](codes/Linear_models/logistic_regression.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/logistic_regression.ipynb))
 
-- ##### 多项回归 (Multinomial logistic regression, Softmax regression)
+- ##### 多项回归 (Multinomial logistic regression, Softmax regression) ([code](codes/Linear_models/softmax_regression.py)) ([notebook-in-colab](notebooks(colab)/Linear_models/softmax_regression.ipynb))
 
 - ##### 线性支持向量机 (Linear Support Vector Machines, Linear SVM)
   
