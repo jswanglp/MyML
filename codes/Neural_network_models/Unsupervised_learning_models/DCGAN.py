@@ -1,4 +1,5 @@
 # 该程序通过两层卷积神经网络实现了 DCGAN 网络
+# 按照 A Radford 文章中的 DCGAN 设计网络，区别在于仍然使用了全连神经网络层
 # 参考程序: https://github.com/aymericdamien/TensorFlow-Examples/blob/master/notebooks/3_NeuralNetworks/dcgan.ipynb
 # 参考文章: https://arxiv.org/pdf/1511.06434.pdf
 # conding: utf-8
