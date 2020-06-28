@@ -1,7 +1,18 @@
 # В программе реализованы простые генеративно-состязательные сети
 # Одновременно обучать генеративные и дискриминантные сети
 # Также можно обучать дискриминантные сети, а затем обучать генеративные сети
-# conding: utf-8
+# -*- coding: utf-8 -*- 
+"""
+Created on 11 May, 2019
+@author jswanglp
+
+requirements:
+    scipy==1.1.0
+    numpy==1.15.4
+    matplotlib==2.0.2
+    tensorflow==1.12.0
+
+"""
 
 import tensorflow as tf
 import numpy as np

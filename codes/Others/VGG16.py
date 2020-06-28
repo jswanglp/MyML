@@ -5,6 +5,20 @@
 # 修改了 utils.py 中 print_prob函数，返回名称和概率
 # 修改了 vgg16.py 中 __init__ 函数 allow_pickle=True
 # 添加了一次识别多张图像并且输出结果的程序
+# -*- coding: utf-8 -*- 
+"""
+Created on 18 June, 2019
+@author jswanglp
+
+requirements:
+    numpy==1.15.4
+    matplotlib==2.0.2
+    tensorflow==1.12.0
+    tensorflow_datasets==1.0.1
+    utils==1.0.1
+
+"""
+
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 import numpy as np

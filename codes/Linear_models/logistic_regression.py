@@ -1,7 +1,19 @@
 # 该程序用 logistic 回归解决二分类问题
 # 使用 SGD 时应注意增大 num_epochs 与 display_step 的数值
 # #@title Logistic Regression { display-mode: "both" }
-# coding:utf-8
+# -*- coding: utf-8 -*- 
+"""
+Created on 29 April, 2019
+@author jswanglp
+
+requirements:
+    matplotlib==2.0.2
+    numpy==1.15.4
+    tensorflow==1.12.0
+    scikit_learn==0.23.1
+
+"""
+
 import os
 import numpy as np
 import tensorflow as tf

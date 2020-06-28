@@ -1,6 +1,21 @@
 # 该程序实现 k-NN 对三维随机数据的分类
 # 参考程序：https://github.com/wzyonggege/statistical-learning-method/blob/master/KNearestNeighbors/KNN.ipynb
-# coding: utf-8
+# -*- coding: utf-8 -*- 
+"""
+Created on 12 May, 2019
+@author jswanglp
+
+requirements:
+    numpy==1.15.4
+    tensorflow==1.12.0
+    scipy==1.1.0
+    hmmlearn==0.2.3
+    matplotlib==2.0.2
+    graphviz==0.14
+    scikit_learn==0.23.1
+
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D

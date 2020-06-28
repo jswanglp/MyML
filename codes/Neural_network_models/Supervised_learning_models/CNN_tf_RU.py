@@ -1,5 +1,18 @@
 # В программе используется API в TensorFlow для реализации двухслойных сверточных нейронных сетей
-# coding: utf-8
+# -*- coding: utf-8 -*- 
+"""
+Created on 10 May, 2019
+@author jswanglp
+
+requirements:
+    Keras==2.2.4
+    matplotlib==2.0.2
+    numpy==1.15.4
+    tensorflow==1.12.0
+    scipy==1.1.0
+    Bunch==1.0.1
+
+"""
 
 import tensorflow.examples.tutorials.mnist.input_data as input_data
 import tensorflow as tf

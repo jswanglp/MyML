@@ -5,6 +5,19 @@
 # Модифицирована функция print_prob в utils.py, теперь она возвращает название категории и вероятность
 # Модифицирована функция __init__ в vgg16.py, и параметр allow_pickle установлен True
 # Добавлен код, который распознает несколько изображений одновременно и выводит результаты
+# -*- coding: utf-8 -*- 
+"""
+Created on 18 June, 2019
+@author jswanglp
+
+requirements:
+    numpy==1.15.4
+    matplotlib==2.0.2
+    tensorflow==1.12.0
+    tensorflow_datasets==1.0.1
+    utils==1.0.1
+
+"""
 
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec

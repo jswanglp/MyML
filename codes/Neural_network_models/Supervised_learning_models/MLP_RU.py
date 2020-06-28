@@ -2,7 +2,21 @@
 # Определение функции printRed, которая может отображать красные шрифты в командной строке
 # Определение функции print_progress, которая отображает ход выполнения в реальном времени
 # Использование метода mini-batch SGD для обучения персептрона
-# conding: utf-8
+# -*- coding: utf-8 -*- 
+"""
+Created on 06 May, 2019
+@author jswanglp
+
+requirements:
+    Keras==2.2.4
+    matplotlib==2.0.2
+    numpy==1.15.4
+    tensorflow==1.12.0
+    scipy==1.1.0
+    Bunch==1.0.1
+
+"""
+
 import numpy as np
 import os, sys, ctypes
 import tensorflow as tf

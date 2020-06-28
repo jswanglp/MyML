@@ -1,5 +1,17 @@
 # 该程序实现了一个简单的线性回归
-# coding:utf-8
+# -*- coding: utf-8 -*- 
+"""
+Created on 28 April, 2019
+@author jswanglp
+
+requirements:
+    matplotlib==2.0.2
+    numpy==1.15.4
+    tensorflow==1.12.0
+    scikit_learn==0.23.1
+
+"""
+
 import numpy as np
 import tensorflow as tf
 import matplotlib.pyplot as plt

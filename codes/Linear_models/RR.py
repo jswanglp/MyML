@@ -1,7 +1,18 @@
 # 该程序用于实现岭回归对函数进行拟合
 # 样本较少数据（样本个数为10）的未知函数的拟合（测试数据多于训练数据num=30），loss按照训练数据计算（10个）
 # 拟合函数为多项式函数，含一个 bias，通过theta[0]表示
-# conding: utf-8
+# -*- coding: utf-8 -*- 
+"""
+Created on 02 May, 2019
+@author jswanglp
+
+requirements:
+    matplotlib==2.0.2
+    numpy==1.15.4
+    tensorflow==1.12.0
+    scikit_learn==0.23.1
+
+"""
 
 import numpy as np
 import matplotlib.pyplot as plt

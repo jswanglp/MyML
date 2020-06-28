@@ -3,7 +3,22 @@
 # 聚类时全部样本用于一个模型，分类时每个类拥有自己独立的模型
 # hmmlearn API Reference: https://hmmlearn.readthedocs.io/en/latest/api.html#hmmlearn-hmm
 # Hidden Markov Model
-# coding: utf-8
+# -*- coding: utf-8 -*- 
+"""
+Created on 27 May, 2019
+@author jswanglp
+
+requirements:
+    numpy==1.15.4
+    tensorflow==1.12.0
+    scipy==1.1.0
+    hmmlearn==0.2.3
+    matplotlib==2.0.2
+    graphviz==0.14
+    scikit_learn==0.23.1
+
+"""
+
 from hmmlearn import hmm
 import numpy as np
 import matplotlib.pyplot as plt

@@ -2,7 +2,19 @@
 # Проектирование структуры сетей в соответствии с DCGAN в статье A Radford, разница в том, что полносвязный нейронный слой был использован в Генераторе и Дискриминаторе
 # Оригинальная программа: https://github.com/aymericdamien/TensorFlow-Examples/blob/master/notebooks/3_NeuralNetworks/dcgan.ipynb
 # Литература: https://arxiv.org/pdf/1511.06434.pdf
-# conding: utf-8
+# -*- coding: utf-8 -*- 
+"""
+Created on 21 May, 2019
+@author jswanglp
+
+requirements:
+    scipy==1.1.0
+    numpy==1.15.4
+    matplotlib==2.0.2
+    tensorflow==1.12.0
+
+"""
+
 import matplotlib.pyplot as plt
 import numpy as np
 import tensorflow as tf

@@ -1,6 +1,17 @@
 # 该程序实现了简单的生成对抗网络，采取生成，判别网络同时训练的策略，
 # 也可以先训练判别网络然后在训练生成网络。
-# conding: utf-8
+# -*- coding: utf-8 -*- 
+"""
+Created on 11 May, 2019
+@author jswanglp
+
+requirements:
+    scipy==1.1.0
+    numpy==1.15.4
+    matplotlib==2.0.2
+    tensorflow==1.12.0
+
+"""
 
 import tensorflow as tf
 import numpy as np

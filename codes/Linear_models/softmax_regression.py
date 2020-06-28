@@ -1,7 +1,19 @@
 # 该程序用 Softmax 回归解决二分类问题
 # 改写自 logistic regression 程序，默认采用 SGD 来训练网络
 # #@title Softmax Regression { display-mode: "both" }
-# coding:utf-8
+# -*- coding: utf-8 -*- 
+"""
+Created on 07 March, 2020
+@author jswanglp
+
+requirements:
+    matplotlib==2.0.2
+    numpy==1.15.4
+    tensorflow==1.12.0
+    scikit_learn==0.23.1
+
+"""
+
 import os
 import numpy as np
 import tensorflow as tf

@@ -1,0 +1,9 @@
+# pipreqs ./path --encoding=utf-8
+# pip install -r requirements.txt
+
+Keras==2.2.4
+matplotlib==2.0.2
+numpy==1.15.4
+tensorflow==1.12.0
+scipy==1.1.0
+Bunch==1.0.1

@@ -1,6 +1,21 @@
 # 该程序实现EM算法对混合高斯模型参数的估计
 # 混合高斯模型对随机数据的聚类
-# coding: utf-8
+# -*- coding: utf-8 -*- 
+"""
+Created on 17 May, 2019
+@author jswanglp
+
+requirements:
+    numpy==1.15.4
+    tensorflow==1.12.0
+    scipy==1.1.0
+    hmmlearn==0.2.3
+    matplotlib==2.0.2
+    graphviz==0.14
+    scikit_learn==0.23.1
+
+"""
+
 import numpy as np
 import numpy.matlib
 import matplotlib.pyplot as plt

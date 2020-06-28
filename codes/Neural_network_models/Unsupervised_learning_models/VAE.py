@@ -1,7 +1,19 @@
 # 该程序实现了变分自编码器，给出了隐变量空间在图像空间的投影
 # 参考程序：https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/3_NeuralNetworks/variational_autoencoder.py
 # 说明：该程序没有定义 summaries，衰减的 learning_rate，各参数也没有相应的 name_scope。
-# coding: utf-8
+# -*- coding: utf-8 -*- 
+"""
+Created on 30 April, 2019
+@author jswanglp
+
+requirements:
+    scipy==1.1.0
+    numpy==1.15.4
+    matplotlib==2.0.2
+    tensorflow==1.12.0
+
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf

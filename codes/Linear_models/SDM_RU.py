@@ -2,11 +2,23 @@
 # В программе реализовано приближение с помощью кривых при использовании алгоритма SDM
 # Подходящая функция является полиномиальной функцией
 # Supervised Descent Method and Its Applications to Face Alignment: https://www.cv-foundation.org/openaccess/content_cvpr_2013/papers/Xiong_Supervised_Descent_Method_2013_CVPR_paper.pdf
+# -*- coding: utf-8 -*- 
+"""
+Created on 22 June, 2019
+@author jswanglp
+
+requirements:
+    matplotlib==2.0.2
+    numpy==1.15.4
+    tensorflow==1.12.0
+    scikit_learn==0.23.1
+
+"""
+
 import numpy as np
 import math
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import PolynomialFeatures
-# coding: utf-8
 
 if __name__ == '__main__':
 

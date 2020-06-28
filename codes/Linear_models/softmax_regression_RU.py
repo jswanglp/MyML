@@ -1,7 +1,19 @@
 # В программе реализована softmax регрессия для классификации двух категорий изображений
 # Переписана из программы логистической регрессии при использованиеи SGD для обучения сетей по умолчанию
 # #@title Softmax регрессия { display-mode: "both" }
-# coding:utf-8
+# -*- coding: utf-8 -*- 
+"""
+Created on 07 March, 2020
+@author jswanglp
+
+requirements:
+    matplotlib==2.0.2
+    numpy==1.15.4
+    tensorflow==1.12.0
+    scikit_learn==0.23.1
+
+"""
+
 import os
 import numpy as np
 import tensorflow as tf

@@ -1,7 +1,19 @@
 # В программе реализован метод опорных векторов с помощью градиентного спуска
 # Снижение размерности с помощью СНС
 # Литература: https://en.wikipedia.org/wiki/Support-vector_machine
-# code: utf-8
+# -*- coding: utf-8 -*- 
+"""
+Created on 01 May, 2019
+@author jswanglp
+
+requirements:
+    matplotlib==2.0.2
+    numpy==1.15.4
+    tensorflow==1.12.0
+    scikit_learn==0.23.1
+
+"""
+
 import matplotlib.pyplot as plt
 import numpy as np
 import tensorflow as tf

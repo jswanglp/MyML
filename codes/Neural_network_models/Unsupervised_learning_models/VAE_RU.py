@@ -1,7 +1,19 @@
 # В этой программе реализован вариационный автокодировщик
 # В программе показаны проекции скрытого переменного пространства в пространстве изображения
 # Оригинальная программа: https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/3_NeuralNetworks/variational_autoencoder.py
-# coding: utf-8
+# -*- coding: utf-8 -*- 
+"""
+Created on 30 April, 2019
+@author jswanglp
+
+requirements:
+    scipy==1.1.0
+    numpy==1.15.4
+    matplotlib==2.0.2
+    tensorflow==1.12.0
+
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf

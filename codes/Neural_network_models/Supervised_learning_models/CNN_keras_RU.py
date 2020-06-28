@@ -1,6 +1,20 @@
 # В программе используется API в Keras для реализации двухслойной сверточной нейронной сети
 # Оригинальная программа：https://keras.io/getting-started/sequential-model-guide/
-# coding: utf-8
+# -*- coding: utf-8 -*- 
+"""
+Created on 09 May, 2019
+@author jswanglp
+
+requirements:
+    Keras==2.2.4
+    matplotlib==2.0.2
+    numpy==1.15.4
+    tensorflow==1.12.0
+    scipy==1.1.0
+    Bunch==1.0.1
+
+"""
+
 import keras
 from keras.datasets import mnist
 from keras.models import Sequential

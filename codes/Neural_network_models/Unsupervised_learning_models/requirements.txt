@@ -1,0 +1,7 @@
+# pipreqs ./path --encoding=utf-8
+# pip install -r requirements.txt
+
+scipy==1.1.0
+numpy==1.15.4
+matplotlib==2.0.2
+tensorflow==1.12.0

@@ -1,6 +1,21 @@
 # 该程序实现了通过主成分分析的方法使二维数据映射到一维数据，使得方差最大化
 # 提供了梯度下降寻找特征值及特征向量和直接调用特征分解函数两种方法
-# coding: utf-8
+# -*- coding: utf-8 -*- 
+"""
+Created on 03 May, 2019
+@author jswanglp
+
+requirements:
+    numpy==1.15.4
+    tensorflow==1.12.0
+    scipy==1.1.0
+    hmmlearn==0.2.3
+    matplotlib==2.0.2
+    graphviz==0.14
+    scikit_learn==0.23.1
+
+"""
+
 import numpy as np
 import tensorflow as tf
 import matplotlib.pyplot as plt

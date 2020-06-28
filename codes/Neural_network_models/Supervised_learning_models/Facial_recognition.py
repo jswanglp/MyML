@@ -1,7 +1,21 @@
 # 该程序通过 TensorFlow 搭建4层卷积神经网络实现对人脸数据集 FaceWarehouse 的分类
 # 关于人脸库 FaceWarehouse，详见：http://kunzhou.net/zjugaps/facewarehouse/
 # 训练集、测试集图像与标签的数据存储于 data_path中的 faces_150.mat
-# coding: utf-8
+# -*- coding: utf-8 -*- 
+"""
+Created on 18 May, 2019
+@author jswanglp
+
+requirements:
+    Keras==2.2.4
+    matplotlib==2.0.2
+    numpy==1.15.4
+    tensorflow==1.12.0
+    scipy==1.1.0
+    Bunch==1.0.1
+
+"""
+
 import tensorflow as tf
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec

@@ -1,6 +1,17 @@
 # В этой программе реализован автокодировщик с помощью двух полносвязных слоев
 # Оригинальная программа: https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/3_NeuralNetworks/autoencoder.py
-# conding: utf-8
+# -*- coding: utf-8 -*- 
+"""
+Created on 04 May, 2019
+@author jswanglp
+
+requirements:
+    scipy==1.1.0
+    numpy==1.15.4
+    matplotlib==2.0.2
+    tensorflow==1.12.0
+
+"""
 
 import tensorflow as tf
 import numpy as np

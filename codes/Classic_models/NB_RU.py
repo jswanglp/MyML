@@ -1,6 +1,21 @@
 # В программе реализован наивный байесовский классификатор
 # Оригинальная программа: https://github.com/wzyonggege/statistical-learning-method/blob/master/NaiveBayes/GaussianNB.ipynb
-# coding: utf-8
+# -*- coding: utf-8 -*- 
+"""
+Created on 08 May, 2019
+@author jswanglp
+
+requirements:
+    numpy==1.15.4
+    tensorflow==1.12.0
+    scipy==1.1.0
+    hmmlearn==0.2.3
+    matplotlib==2.0.2
+    graphviz==0.14
+    scikit_learn==0.23.1
+
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 import math

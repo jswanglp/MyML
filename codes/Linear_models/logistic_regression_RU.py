@@ -1,7 +1,19 @@
 # В программе реализована логистическая регрессия для классификации двух категорий изображений
 # При использовании SGD вам необходимо увеличить значения num_epochs и display_step
 # #@title Real Logistic Regression { display-mode: "both" }
-# coding: utf-8
+# -*- coding: utf-8 -*- 
+"""
+Created on 29 April, 2019
+@author jswanglp
+
+requirements:
+    matplotlib==2.0.2
+    numpy==1.15.4
+    tensorflow==1.12.0
+    scikit_learn==0.23.1
+
+"""
+
 import os
 import numpy as np
 import tensorflow as tf

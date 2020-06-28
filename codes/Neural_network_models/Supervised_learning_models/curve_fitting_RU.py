@@ -1,6 +1,20 @@
 # В программе реализовано приближение исходных данных с помощью нейронных сетей с одным скрытым слоем
 # Можно сравнить с результатами метода регуляризации Тихонова
-# conding: utf-8
+# -*- coding: utf-8 -*- 
+"""
+Created on 05 June, 2019
+@author jswanglp
+
+requirements:
+    Keras==2.2.4
+    matplotlib==2.0.2
+    numpy==1.15.4
+    tensorflow==1.12.0
+    scipy==1.1.0
+    Bunch==1.0.1
+
+"""
+
 import numpy as np
 import tensorflow as tf
 import matplotlib.pyplot as plt

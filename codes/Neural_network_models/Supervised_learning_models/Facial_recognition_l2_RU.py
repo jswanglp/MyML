@@ -3,7 +3,21 @@
 # Информации о наборе лица FaceWarehouse: http://kunzhou.net/zjugaps/facewarehouse/
 # Набор обучающих, тестовых изображений и этикетки хранятся в face_150.mat
 # В программе используется L2 регуляризация для решения проблемы переобучения
-# coding: utf-8
+# -*- coding: utf-8 -*- 
+"""
+Created on 19 May, 2019
+@author jswanglp
+
+requirements:
+    Keras==2.2.4
+    matplotlib==2.0.2
+    numpy==1.15.4
+    tensorflow==1.12.0
+    scipy==1.1.0
+    Bunch==1.0.1
+
+"""
+
 import tensorflow as tf
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec

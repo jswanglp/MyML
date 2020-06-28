@@ -2,7 +2,21 @@
 # 定义了可以在 cmd 下输出红色字体的存储记录，定义了实时进度条显示完成度的 print_progress 函数
 # 采取初始 learning rate 每 16 步衰减为 0.95 倍的策略
 # 采用 mini-batch SGD 的梯度训练方法
-# conding:utf-8
+# -*- coding: utf-8 -*- 
+"""
+Created on 06 May, 2019
+@author jswanglp
+
+requirements:
+    Keras==2.2.4
+    matplotlib==2.0.2
+    numpy==1.15.4
+    tensorflow==1.12.0
+    scipy==1.1.0
+    Bunch==1.0.1
+
+"""
+
 import numpy as np
 import os, sys, ctypes
 import tensorflow as tf

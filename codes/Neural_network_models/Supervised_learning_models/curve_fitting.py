@@ -1,6 +1,20 @@
 # 该程序通过含一个隐层的神经网络对输入数据进行拟合
 # 可以与岭回归的结果做比较
-# conding: utf-8
+# -*- coding: utf-8 -*- 
+"""
+Created on 05 June, 2019
+@author jswanglp
+
+requirements:
+    Keras==2.2.4
+    matplotlib==2.0.2
+    numpy==1.15.4
+    tensorflow==1.12.0
+    scipy==1.1.0
+    Bunch==1.0.1
+
+"""
+
 import numpy as np
 import tensorflow as tf
 import matplotlib.pyplot as plt

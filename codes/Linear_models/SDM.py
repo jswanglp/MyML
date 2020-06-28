@@ -2,7 +2,19 @@
 # 该程序简单的实现了 SDM 算法对数据的拟合
 # 拟合函数为多项式函数
 # 论文在这里：https://www.cv-foundation.org/openaccess/content_cvpr_2013/papers/Xiong_Supervised_Descent_Method_2013_CVPR_paper.pdf
-# coding: utf-8
+# -*- coding: utf-8 -*- 
+"""
+Created on 22 June, 2019
+@author jswanglp
+
+requirements:
+    matplotlib==2.0.2
+    numpy==1.15.4
+    tensorflow==1.12.0
+    scikit_learn==0.23.1
+
+"""
+
 import numpy as np
 import math
 import matplotlib.pyplot as plt

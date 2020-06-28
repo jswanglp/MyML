@@ -1,7 +1,18 @@
 # В программе реализована аппроксимация неизвестной функции с помощью метода регуляризации Тихонова
 # Количество выборок равно 10, тестовые данные num = 30
 # Неизвестная функция - это полиномиальная функция со смещением, представленное theta[0]
-# conding: utf-8
+# -*- coding: utf-8 -*- 
+"""
+Created on 02 May, 2019
+@author jswanglp
+
+requirements:
+    matplotlib==2.0.2
+    numpy==1.15.4
+    tensorflow==1.12.0
+    scikit_learn==0.23.1
+
+"""
 
 import numpy as np
 import matplotlib.pyplot as plt

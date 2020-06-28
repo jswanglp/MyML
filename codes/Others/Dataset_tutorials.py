@@ -1,5 +1,18 @@
 # 该程序简要的介绍了 TensorFlow 中 Dataset 类的使用
-# conding: utf-8
+# -*- coding: utf-8 -*- 
+"""
+Created on 20 May, 2019
+@author jswanglp
+
+requirements:
+    numpy==1.15.4
+    matplotlib==2.0.2
+    tensorflow==1.12.0
+    tensorflow_datasets==1.0.1
+    utils==1.0.1
+
+"""
+
 import tensorflow as tf
 import tensorflow_datasets as tfds
 import numpy as np
