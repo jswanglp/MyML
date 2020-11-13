@@ -4,6 +4,6 @@
 Keras==2.2.4
 matplotlib==2.0.2
 numpy==1.15.4
-tensorflow==1.12.0
+tensorflow==2.3.1
 scipy==1.1.0
 Bunch==1.0.1
